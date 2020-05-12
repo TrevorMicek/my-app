@@ -32,10 +32,7 @@ const SectionText = styled(Text)`
     margin-right: 1.5vw;
     text-decoration: underline;
     @media(max-width: 768px) {
-        font-size: 1.25em;
-    }
-    @media(min-width: 768px) {
-        font-size: .75em;
+        font-size: 1em;
     }
     
 `;
