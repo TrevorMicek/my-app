@@ -36,13 +36,13 @@ const XStyles = styled.img`
     
     display: block;
     height: 5vh;
-    width: 6vw;
+    width: 5vw;
     position: fixed;
     z-index: 11;
    
    
     top: 3.5vh;
-    right: 7.5vw;
+    right: 9vw;
     
     cursor: pointer;
   
