@@ -47,10 +47,10 @@ const HeaderWrap = styled(HeaderContainer)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 10, .05);
+    background: rgba(00, 00, 00, .05);
 
     @media(max-width: 768px) {
-        background: rgba(00, 00, 10, .15);
+        background: rgba(00, 00, 20, .15);
     }
     
 `;
