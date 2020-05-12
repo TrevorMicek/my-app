@@ -11,8 +11,8 @@ export default styled.div`
     text-align: left;
         
     @media(max-width:768px) {
-        left: 2vw;
-        top: 1vh;
+        left: 1.5vw;
+        top: 0;
         font-size: 1.25em
     }
 
