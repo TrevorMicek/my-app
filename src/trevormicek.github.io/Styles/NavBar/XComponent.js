@@ -41,7 +41,7 @@ const XStyles = styled.img`
     z-index: 11;
    
    
-    top: 3.5vh;
+    top: 3vh;
     right: 10vw;
     
     cursor: pointer;
