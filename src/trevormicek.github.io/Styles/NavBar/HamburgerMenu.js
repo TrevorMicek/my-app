@@ -5,12 +5,12 @@ import HamburgerImg from '../../Images/HamburgerImg.png';
 
 
 const HamburgerStyles = styled.img`
-height: 6vh;
+height: 5vh;
 width: 11vw;
 position: fixed;
 z-index: 11;
 margin: auto 0;
-top: 2.5vh;
+top: 3vh;
 right: 7vw;
 
 cursor: pointer;
