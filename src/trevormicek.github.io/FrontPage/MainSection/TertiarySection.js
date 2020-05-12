@@ -54,7 +54,8 @@ const Title = styled(SectionTitle)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: ${props => props.theme.overlay.tertiarySectionBg};
+    background: rgba(00, 00, 00, .25);
+    
 `;
 const Links = styled.a`
     color: #f5fffA;
