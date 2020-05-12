@@ -17,7 +17,7 @@ const Container = styled(Wrapper)`
     bottom: 3vh;
     display: inline-block;
     @media(max-width: 768px) {
-        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
     @media(min-width: 916px) {
    
@@ -27,6 +27,7 @@ const Container = styled(Wrapper)`
 `;
 const SectionText = styled(Text)`
     display: inline-block;
+    min-width: 35%;
     font-size: .5em;
     line-height: 1.5em;
     z-index: 5;
