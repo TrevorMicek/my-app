@@ -69,7 +69,7 @@ const SecondList = styled.ul`
 `;
 const PrimarySection = () => (
     <Container>
-            <OverlayStyles />
+            <OverlayStyle />
             <SectionTitle>
                 Languages Skills
             </SectionTitle>

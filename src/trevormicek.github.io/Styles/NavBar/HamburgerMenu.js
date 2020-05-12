@@ -6,7 +6,7 @@ import HamburgerImg from '../../Images/HamburgerImg.png';
 
 const HamburgerStyles = styled.img`
 height: 5vh;
-width: 11vw;
+width: 8vw;
 position: fixed;
 z-index: 11;
 margin: auto 0;
@@ -25,6 +25,10 @@ cursor: pointer;
     }
     @media(max-width: 768px) {
         display: inline-block;
+        height: 5vh;
+        width: 11vw;
+        top: 3vh;
+        right: 7vw;
     }
 
 `;
