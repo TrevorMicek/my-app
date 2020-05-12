@@ -16,7 +16,7 @@ const Container = styled(MainSectionItem)`
 
     
     @media(max-width: 768px) {
-        font-size: 1.35em;
+        font-size: 1.25em;
     }
     @media(min-width: 916px) {
         width: 60%;
@@ -53,7 +53,7 @@ const FirstList = styled.ul`
     right: 30vw;
     top: 0;
     list-style-position: outside;
-    line-height: 3.5vh;
+    line-height: 3.75vh;
     @media(min-width: 1060px) {
         font-size: .85em;
         right: 15vw;

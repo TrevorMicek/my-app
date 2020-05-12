@@ -19,7 +19,7 @@ const SectionText = styled(Text)`
     line-height: 1.5em;
 
     @media(max-width: 768px) {
-        font-size: 1.35em;
+        font-size: 1.25em;
     }
     @media(min-width: 1060px) {
 margin-left: 0;
@@ -53,6 +53,10 @@ const Container = styled(MainSectionItem)`
 const Title = styled(SectionTitle)`
     text-decoration: underline;
     max-width: 35%;
+
+    @media(max-width: 768px) {
+        font-size: 1.1em;
+    }
     
 
     
