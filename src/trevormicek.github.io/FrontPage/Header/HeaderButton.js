@@ -27,7 +27,7 @@ export default styled.button`
     }
      @media(max-width: 768px) {
         
-        background-color: #308F8F;
+        background-color: #328CBE;
        
         
     }
