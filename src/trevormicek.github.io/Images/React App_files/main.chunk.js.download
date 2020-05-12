@@ -1,0 +1,4629 @@
+(this["webpackJsonpmy-app"] = this["webpackJsonpmy-app"] || []).push([["main"],{
+
+/***/ "./src/FourthPage/Footer/Bottom.js":
+/*!*****************************************!*\
+  !*** ./src/FourthPage/Footer/Bottom.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\Footer\\Bottom.js";
+
+
+
+
+ //Bottom Nav 
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    position: absolute;
+    left: 50%;
+    bottom: 3vh;
+    display: inline-block;
+
+    @media(min-width: 916px) {
+   
+   font-size: 1.45em;
+   
+}
+    
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1.5em;
+    z-index: 5;
+    right: 50%;
+    margin-right: 1.5vw;
+    text-decoration: underline;
+    
+`;
+
+const Bottom = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (Bottom);
+
+/***/ }),
+
+/***/ "./src/FourthPage/Footer/Footer.js":
+/*!*****************************************!*\
+  !*** ./src/FourthPage/Footer/Footer.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+/* harmony import */ var _Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/Footer/LeftSide */ "./src/Styles/Footer/LeftSide.js");
+/* harmony import */ var _Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Footer/RightSide */ "./src/Styles/Footer/RightSide.js");
+/* harmony import */ var _Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/Bottom */ "./src/FourthPage/Footer/Bottom.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\Footer\\Footer.js";
+
+
+
+
+
+ //Footer Component
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    flex-direction: row;
+    align-items: flex-end;
+    background: #606060;
+    padding-top: 5vh;
+    bottom: 0;
+    box-shadow: none;
+    z-index: 7;
+
+    @media(min-width: 916px) {
+        padding-top: 7.5vh;
+        font-size: 1.25em;
+
+        
+    }
+`;
+
+const Footer = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/FourthPage/FourthPage.js":
+/*!**************************************!*\
+  !*** ./src/FourthPage/FourthPage.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header/Header */ "./src/FourthPage/Header/Header.js");
+/* harmony import */ var _MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MainSection/MainSection */ "./src/FourthPage/MainSection/MainSection.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer/Footer */ "./src/FourthPage/Footer/Footer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\FourthPage.js";
+
+
+
+
+ //Contact Page
+
+const FourthPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (FourthPage);
+
+/***/ }),
+
+/***/ "./src/FourthPage/Header/Header.js":
+/*!*****************************************!*\
+  !*** ./src/FourthPage/Header/Header.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../Styles/HeaderContainer */ "./src/Styles/HeaderContainer.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\Header\\Header.js";
+
+
+
+ //Header For Second Page
+
+const HeaderWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom right, #014421, #007070);
+    padding-bottom: 30vh;
+    box-shadow: #000 0px 0px 10px;
+`;
+const TitleText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    font-size: 2em;
+    top: 15vh;
+
+    @media(min-width: 916px) {
+        top: 20vh;
+    
+    }
+
+`;
+
+const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Contact"));
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/FourthPage/MainSection/Form/Form.js":
+/*!*************************************************!*\
+  !*** ./src/FourthPage/MainSection/Form/Form.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Name__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Name */ "./src/FourthPage/MainSection/Form/Name.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\MainSection\\Form\\Form.js";
+
+
+
+
+const Form = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Name__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
+
+/***/ }),
+
+/***/ "./src/FourthPage/MainSection/Form/Name.js":
+/*!*************************************************!*\
+  !*** ./src/FourthPage/MainSection/Form/Name.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/react-hook-form.es.js");
+/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! emailjs-com */ "./node_modules/emailjs-com/source/index.js");
+/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(emailjs_com__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\MainSection\\Form\\Name.js";
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+  box-shadow: none;
+  border: 2px solid #000;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+  height: 45vh;
+  font-size: 1em;
+  padding: 3vh 10vw 5vh 10vw;
+ 
+
+  
+  @media(min-width: 768px) {
+    max-width: 40%;
+    margin-left: 0;
+  }
+  @media(min-width: 1060px) {
+    max-width: 30%;
+  }
+`;
+const Form = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].form`
+  text-align: left;
+  font-size: .9em;
+
+
+`;
+const Input = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input`
+  
+  margin-top: .5vh;
+  height: 3vh;
+  max-width: 60%;
+  text-align: left;
+  font-size: .9em;
+  font-family: calibri;
+
+  
+  
+  
+`;
+const EmailInput = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(Input)`
+  min-width: 75%;
+`;
+const Label = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].label`
+  margin-top: 1vh;
+`;
+const SubmitInput = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input`
+  padding: .5vh 2vw;
+  margin-bottom: 1vh;
+  height: 4vh;
+  font-size: .9em;
+`;
+const TextArea = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].textarea`
+margin-top: .5vh;
+font-size: 1em;
+width: 85%;
+resize: none;
+  
+`;
+const Err = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  font-size: .9em;
+  color: red;
+`;
+
+function ContactForm() {
+  const {
+    register,
+    handleSubmit,
+    errors
+  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_3__["useForm"])();
+
+  function sendEmail(e) {
+    emailjs_com__WEBPACK_IMPORTED_MODULE_4___default.a.sendForm('gmail', 'contactForm', e.target).then(result => {
+      console.log(result.text);
+    }, error => {
+      console.log(error.text);
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Form, {
+    onSubmit: sendEmail,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Name:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Input, {
+    name: "name",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }), errors.name && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "Email:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EmailInput, {
+    name: "email",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }), errors.email && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "Message:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextArea, {
+    type: "textarea",
+    rows: "4",
+    name: "message",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }), errors.message && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubmitInput, {
+    type: "submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }));
+}
+
+const FormItems = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 111
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactForm, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 112
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (FormItems);
+
+/***/ }),
+
+/***/ "./src/FourthPage/MainSection/MainSection.js":
+/*!***************************************************!*\
+  !*** ./src/FourthPage/MainSection/MainSection.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionContainer */ "./src/Styles/MainSectionContainer.js");
+/* harmony import */ var _PrimarySection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PrimarySection */ "./src/FourthPage/MainSection/PrimarySection.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\MainSection\\MainSection.js";
+
+
+
+ //Main Section Items Wrapper
+
+const MainSectionWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    margin: 0 auto 0 auto;
+    height: 50vh;
+    padding-bottom: 30vh;
+    background: #fff;
+    
+   
+    
+`;
+
+const MainSection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainSectionWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimarySection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (MainSection);
+
+/***/ }),
+
+/***/ "./src/FourthPage/MainSection/PrimarySection.js":
+/*!******************************************************!*\
+  !*** ./src/FourthPage/MainSection/PrimarySection.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+/* harmony import */ var _Form_Form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Form/Form */ "./src/FourthPage/MainSection/Form/Form.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\MainSection\\PrimarySection.js";
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    margin-top: 5vh;
+    height: 0;
+    box-shadow: none;
+    margin-bottom: 2.5vh;
+
+
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    color: #000;
+    text-shadow: none;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    text-align: left;
+  
+    
+    
+`;
+const SubText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(SectionTitle)`
+    font-size: .65em;
+    margin-left: 1vw;
+    font-weight: normal;
+    margin-bottom: 2vh;
+
+`;
+
+const PrimarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, "Get in Touch ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, "I'll email you back as soon as I can!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form_Form__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (PrimarySection);
+
+/***/ }),
+
+/***/ "./src/FrontPage/FirstPage.js":
+/*!************************************!*\
+  !*** ./src/FrontPage/FirstPage.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _FrontPage_Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../FrontPage/Header/Header */ "./src/FrontPage/Header/Header.js");
+/* harmony import */ var _FrontPage_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../FrontPage/MainSection/MainSection */ "./src/FrontPage/MainSection/MainSection.js");
+/* harmony import */ var _Footer_Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer/Footer.js */ "./src/FrontPage/Footer/Footer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\FirstPage.js";
+
+
+
+
+ //Home Page
+
+const FirstPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FrontPage_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FrontPage_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (FirstPage);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Footer/Bottom.js":
+/*!****************************************!*\
+  !*** ./src/FrontPage/Footer/Bottom.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+/* harmony import */ var _FirstPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../FirstPage */ "./src/FrontPage/FirstPage.js");
+/* harmony import */ var _SecondPage_SecondPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../SecondPage/SecondPage */ "./src/SecondPage/SecondPage.js");
+/* harmony import */ var _ThirdPage_ThirdPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../ThirdPage/ThirdPage */ "./src/ThirdPage/ThirdPage.js");
+/* harmony import */ var _FourthPage_FourthPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../FourthPage/FourthPage */ "./src/FourthPage/FourthPage.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\Footer\\Bottom.js";
+
+
+
+
+
+
+
+
+ //Bottom Nav 
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    position: absolute;
+    left: 50%;
+    bottom: 3vh;
+    display: inline-block;
+    
+    @media(min-width: 916px) {
+   
+        font-size: 1.45em;
+        
+    }
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1.5em;
+    z-index: 5;
+    right: 50%;
+    margin-right: 1.5vw;
+    text-decoration: underline;
+    
+`;
+
+const Bottom = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 59
+  },
+  __self: undefined
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (Bottom);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Footer/Footer.js":
+/*!****************************************!*\
+  !*** ./src/FrontPage/Footer/Footer.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+/* harmony import */ var _Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/Footer/LeftSide */ "./src/Styles/Footer/LeftSide.js");
+/* harmony import */ var _Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Footer/RightSide */ "./src/Styles/Footer/RightSide.js");
+/* harmony import */ var _Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/Bottom */ "./src/FrontPage/Footer/Bottom.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\Footer\\Footer.js";
+
+
+
+
+
+ //Footer Component
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    flex-direction: row;
+    align-items: flex-end;
+    background: #606060;
+    padding-top: 5vh;
+    bottom: 0;
+    box-shadow: none;
+    z-index: 7;
+    @media(min-width: 916px) {
+        padding-top: 7.5vh;
+        font-size: 1.25em;
+
+        
+    }
+`;
+
+const Footer = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Header/Header.js":
+/*!****************************************!*\
+  !*** ./src/FrontPage/Header/Header.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../Theme */ "./src/Theme.js");
+/* harmony import */ var _Images_SecondImg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Images/SecondImg.jpg */ "./src/Images/SecondImg.jpg");
+/* harmony import */ var _Images_SecondImg_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Images_SecondImg_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Styles_Overlay__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../Styles/Overlay */ "./src/Styles/Overlay.js");
+/* harmony import */ var _Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../../Styles/HeaderContainer */ "./src/Styles/HeaderContainer.js");
+/* harmony import */ var _HeaderTitle__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./HeaderTitle */ "./src/FrontPage/Header/HeaderTitle.js");
+/* harmony import */ var _HeaderText__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./HeaderText */ "./src/FrontPage/Header/HeaderText.js");
+/* harmony import */ var _HeaderButton__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./HeaderButton */ "./src/FrontPage/Header/HeaderButton.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\Header\\Header.js";
+
+
+
+
+
+
+
+
+
+
+ //Header Component
+
+const HeaderWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_6__["default"])`
+    background: url(${_Images_SecondImg_jpg__WEBPACK_IMPORTED_MODULE_4___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+    padding-bottom: 12.5vh;
+    
+    @media(min-width: 768px) {
+        
+        
+        padding-bottom: 15vh;
+        
+    }
+
+    @media(min-width: 916px) {
+      padding-bottom: 10vh;
+      font-size: 1em;
+        
+    }
+
+    @media(min-width: 1060px) {
+        
+        padding-bottom: 17.5vh;
+        font-size: 1.1em;
+        
+    }
+
+    @media(min-width: 1360px) {
+        
+        padding-bottom: 15vh;
+        font-size: 1.1em;
+        
+    }
+    
+`;
+const OverlayStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Overlay__WEBPACK_IMPORTED_MODULE_5__["default"])`
+    background: ${props => props.theme.overlay.bg[1]};
+`;
+const Email = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    padding-right: 0;
+    
+    z-index: 5;
+    margin: 0 2vw 0vh auto;
+
+    @media(min-width: 768px) {
+        
+        
+        font-size: 1.1em;
+        
+    }
+
+
+    @media(min-width: 916px) {
+        margin-right: 15vw;
+        font-size: 1.15em;
+        margin-bottom: 0;
+        
+    }
+
+   
+
+`;
+
+const Header = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OverlayStyle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HeaderTitle__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 85
+  },
+  __self: undefined
+}, "Welcome to my website made", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 86
+  },
+  __self: undefined
+}), " 100% with ReactJS!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HeaderText__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 89
+  },
+  __self: undefined
+}, "Hello, I'm Trevor Micek and I am a Front End Developer, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 90
+  },
+  __self: undefined
+}), "looking for a position at a business in Boulder."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Email, {
+  href: "mailto:miceking@comcast.net",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 94
+  },
+  __self: undefined
+}, "E-mail Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 96
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HeaderButton__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 97
+  },
+  __self: undefined
+}, "Portfolio")));
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Header/HeaderButton.js":
+/*!**********************************************!*\
+  !*** ./src/FrontPage/Header/HeaderButton.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Header Button
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button`
+    text-align: center;
+    position: relative;
+    margin: 0vh auto 0 auto;
+    padding: 1vh 2vw;
+    color: #fff;
+    font-size: 2.5vh;
+    text-shadow: #000 0px 0px 10px;
+    letter-spacing: .75px;
+    border-color: #006060;
+    background-color: #307D7E; /*greenish blue*/
+    cursor: pointer;
+    min-height: 40px;
+    top: 7.5vh;
+    z-index: 5;
+    outline: none;
+
+    :active {
+        -webkit-box-shadow: inset 0px 0px 5px #006060;
+        -moz-box-shadow: inset 0px 0px 5px #006060;
+        box-shadow: inset 0px 0px 5px #006060;
+        
+    }
+    
+    @media(min-width: 768px) {
+        
+        
+        font-size: 1.1em;
+        
+    }
+
+    @media(min-width: 916px) {
+        padding: 1.5vh 1vw;
+        font-size: 1em;
+        margin-bottom: 3vh;
+        
+    }
+
+    @media(min-width: 1060px) {
+        
+       
+        margin-bottom: 0vh;
+    }
+
+`);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Header/HeaderText.js":
+/*!********************************************!*\
+  !*** ./src/FrontPage/Header/HeaderText.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Header Text
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h4`
+    font-size: 1em;
+    font-family: helvetica;
+   
+    margin: 0 auto 2vh auto;
+    max-width: 46vw;
+    text-align: left;
+    padding-right: 30%;
+    z-index: 5;
+
+
+    @media(min-width: 768px) {
+        
+        
+        max-width: 46%;
+        
+    }
+
+
+    @media(min-width: 916px) {
+        
+        margin-bottom: 0;
+        font-size: 1.25em;
+        max-width: 40%;
+        
+    }
+
+
+`);
+
+/***/ }),
+
+/***/ "./src/FrontPage/Header/HeaderTitle.js":
+/*!*********************************************!*\
+  !*** ./src/FrontPage/Header/HeaderTitle.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Header Title
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1`
+    font-size: 1.5em;
+    font-family: helvetica;
+    padding-bottom: 2vh;
+    margin-top: 8vh;
+    z-index: 5;
+
+    @media(min-width: 916px) {
+        margin: 10vh auto 4vh auto;
+        font-size: 1.75em;
+        letter-spacing: 1px;
+        max-width: 60%
+    }
+`);
+
+/***/ }),
+
+/***/ "./src/FrontPage/MainSection/MainSection.js":
+/*!**************************************************!*\
+  !*** ./src/FrontPage/MainSection/MainSection.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionContainer */ "./src/Styles/MainSectionContainer.js");
+/* harmony import */ var _PrimarySection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PrimarySection */ "./src/FrontPage/MainSection/PrimarySection.js");
+/* harmony import */ var _SecondarySection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SecondarySection */ "./src/FrontPage/MainSection/SecondarySection.js");
+/* harmony import */ var _TertiarySection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./TertiarySection */ "./src/FrontPage/MainSection/TertiarySection.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\MainSection\\MainSection.js";
+
+
+
+
+
+ //Main Section Container
+
+const MainSectionWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    padding-bottom: 10vh;
+    background: #014421;
+    @media(min-width: 1060px) {
+        flex-direction: row;
+        
+    }
+    
+    
+`;
+
+const MainSection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainSectionWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimarySection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondarySection__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TertiarySection__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (MainSection);
+
+/***/ }),
+
+/***/ "./src/FrontPage/MainSection/PrimarySection.js":
+/*!*****************************************************!*\
+  !*** ./src/FrontPage/MainSection/PrimarySection.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Overlay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Overlay */ "./src/Styles/Overlay.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Images_ChurchImg_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Images/ChurchImg.jpeg */ "./src/Images/ChurchImg.jpeg");
+/* harmony import */ var _Images_ChurchImg_jpeg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Images_ChurchImg_jpeg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\MainSection\\PrimarySection.js";
+
+
+
+
+
+
+ //Primary Item
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    background: url(${_Images_ChurchImg_jpeg__WEBPACK_IMPORTED_MODULE_4___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+    height: 35vh;
+
+    
+    
+    @media(min-width: 916px) {
+        width: 60%;
+        height: 40vh;
+        font-size: 1.25em;
+        
+    }
+
+    @media(min-width: 1060px) {
+        width: 30%;
+        
+        margin-left: 1vw;
+        
+    }
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__["default"])`
+    word-spacing: 5vw;
+
+    @media(min-width: 1060px) {
+        top: 3vh;
+        margin-bottom: 2vh;
+        
+    }
+`;
+const FirstList = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].ul`
+    position: absolute;
+    right: 30vw;
+    top: 0;
+    list-style-position: outside;
+    line-height: 3.5vh;
+    @media(min-width: 1060px) {
+        font-size: .85em;
+        right: 15vw;
+        
+    }
+`;
+const SecondList = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].ul`
+    position: absolute;
+    left: 36vw;
+    top: 0;
+    list-style-position: outside;
+
+    @media(min-width: 1060px) {
+        font-size: .85em;
+        left: 15vw;
+        
+    }
+`;
+
+const PrimarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 67
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Overlay__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 68
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 70
+  },
+  __self: undefined
+}, "Languages Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 74
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FirstList, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 75
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 76
+  },
+  __self: undefined
+}, "ReactJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 77
+  },
+  __self: undefined
+}, "ES6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 78
+  },
+  __self: undefined
+}, "AJAX/Json"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 79
+  },
+  __self: undefined
+}, "HTML5/CSS3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SecondList, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, "OOP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+}, "Responsive", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+}), " Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 84
+  },
+  __self: undefined
+}, "VSC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 85
+  },
+  __self: undefined
+}, "Git"))));
+
+/* harmony default export */ __webpack_exports__["default"] = (PrimarySection);
+
+/***/ }),
+
+/***/ "./src/FrontPage/MainSection/SecondarySection.js":
+/*!*******************************************************!*\
+  !*** ./src/FrontPage/MainSection/SecondarySection.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Styles_Overlay_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/Overlay.js */ "./src/Styles/Overlay.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Images_ForestImg_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Images/ForestImg.jpg */ "./src/Images/ForestImg.jpg");
+/* harmony import */ var _Images_ForestImg_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Images_ForestImg_jpg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\MainSection\\SecondarySection.js";
+
+
+
+
+
+
+
+ //Secondary Item
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    background: url(${_Images_ForestImg_jpg__WEBPACK_IMPORTED_MODULE_5___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+    height: 35vh;
+    @media(min-width: 916px) {
+        width: 60%;
+        height: 40vh;
+        font-size: 1.25em;
+        
+    }
+
+    @media(min-width: 1060px) {
+        font-size: 1.1em;
+        width: 30%;
+        
+        margin-left: 1vw;
+        
+    }
+`;
+const ListText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_7__["default"])`
+    margin-left: 4vw;
+    margin-top: 2vh;
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_7__["default"])`
+    margin-left: 9vw;
+    margin-top: 2vh;
+
+    @media(min-width: 1060px) {
+        margin-left: 5vw;
+        
+    }
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__["default"])`
+    text-decoration: underline;
+    max-width: 50%;
+    
+    :active {
+        -webkit-box-shadow: inset 0px 0px 5px #006060;
+        -moz-box-shadow: inset 0px 0px 5px #006060;
+        box-shadow: inset 0px 0px 5px #006060;
+    }
+    
+`;
+
+const SecondarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Overlay_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 60
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, "About Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 66
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 67
+  },
+  __self: undefined
+}, "Passionate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 68
+  },
+  __self: undefined
+}, "Loves Learning"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 69
+  },
+  __self: undefined
+}, "Positive & Friendly"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 70
+  },
+  __self: undefined
+}, "Open To Criticism"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 71
+  },
+  __self: undefined
+}, "Determined To Grow")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73
+  },
+  __self: undefined
+}, "Colorado born who loves adventuring around the foothills, meditation, & cooking!"));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondarySection);
+
+/***/ }),
+
+/***/ "./src/FrontPage/MainSection/TertiarySection.js":
+/*!******************************************************!*\
+  !*** ./src/FrontPage/MainSection/TertiarySection.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Overlay_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Overlay.js */ "./src/Styles/Overlay.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Images_FeatherImg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Images/FeatherImg.jpg */ "./src/Images/FeatherImg.jpg");
+/* harmony import */ var _Images_FeatherImg_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Images_FeatherImg_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _SecondPage_SecondPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../SecondPage/SecondPage */ "./src/SecondPage/SecondPage.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FrontPage\\MainSection\\TertiarySection.js";
+
+
+
+
+
+
+
+
+ //Tertiary Item
+
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_6__["default"])`
+    margin-top: 2vh;
+    margin-left: 2vw;
+    line-height: 1.5em;
+    @media(min-width: 1060px) {
+margin-left: 0;
+        
+        text-align: left;
+        
+        
+        
+    }
+`;
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    background: url(${_Images_FeatherImg_jpg__WEBPACK_IMPORTED_MODULE_4___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+    height: 35vh;
+
+    @media(min-width: 916px) {
+        width: 60%;
+        height: 40vh;
+        font-size: 1.25em;
+        
+    }
+
+    @media(min-width: 1060px) {
+        font-size: 1.1em;
+        width: 30%;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        
+    }
+`;
+const Title = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__["default"])`
+    text-decoration: underline;
+    max-width: 35%;
+    
+
+    
+`;
+const OverlayStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Overlay_js__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background: ${props => props.theme.overlay.tertiarySectionBg};
+`;
+const Links = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
+    color: #f5fffA;
+    margin-left: 5vw;
+    line-height: 2vh;
+`;
+
+const TertiarySection = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 65
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OverlayStyle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 66
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 71
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 72
+  },
+  __self: undefined
+}, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 78
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Links, {
+  href: "eagle-plumes.com",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 79
+  },
+  __self: undefined
+}, "Eagle Plume's"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 79
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Links, {
+  href: "twinowldigital.com",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
+  },
+  __self: undefined
+}, "Old Freelance Site"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Links, {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, "Marketing Portfolio Site"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Links, {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, "Art Collective Site"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Links, {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+}, "Many More to Come..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+})));
+
+/* harmony default export */ __webpack_exports__["default"] = (TertiarySection);
+
+/***/ }),
+
+/***/ "./src/Images/ChurchImg.jpeg":
+/*!***********************************!*\
+  !*** ./src/Images/ChurchImg.jpeg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ChurchImg.70710b0c.jpeg";
+
+/***/ }),
+
+/***/ "./src/Images/EaglePlume.jpg":
+/*!***********************************!*\
+  !*** ./src/Images/EaglePlume.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/EaglePlume.5b4597d8.jpg";
+
+/***/ }),
+
+/***/ "./src/Images/FeatherImg.jpg":
+/*!***********************************!*\
+  !*** ./src/Images/FeatherImg.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/FeatherImg.69bd6aba.jpg";
+
+/***/ }),
+
+/***/ "./src/Images/ForestImg.jpg":
+/*!**********************************!*\
+  !*** ./src/Images/ForestImg.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ForestImg.ca11cb83.jpg";
+
+/***/ }),
+
+/***/ "./src/Images/HamburgerImg.png":
+/*!*************************************!*\
+  !*** ./src/Images/HamburgerImg.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAqCAIAAAChluUPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAF9JREFUWEft1DEKwEAMA8H7/6cvhbcQ6aUYoqkFW9nnfqftvLbHsSEg2h4MDQiITe2ktvPaznu3OUYDAqLtwdCAgNjUTmo7r+28TW0egQEB0fZgaEBAbGontZ33z/a9D7eB2et6sJI8AAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/Images/IIcon.png":
+/*!******************************!*\
+  !*** ./src/Images/IIcon.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABmJLR0QA/wD/AP+gvaeTAAAEUElEQVRogd2a329URRTHP9u6aELTKvbBqMFuJaEQNEAlBqibkIb2zR+ghvgfiA8ihfBM4kMbf/DYP6CgLphGffMFTUt9MDXxxW6BxJi225YKMRUTtma1Psy9ye2ZuXtn5t5uV77JJJ07c86cb3fmzJk5k8MOOeAl4A3gFWAX8ATwqKW8K9aAP4DbwCTwFTANrKdVnAdOA3OBsq0sc4EteV8yg8CtJiAiy01gwJXM+0CtCYyPKzXggi2Z0Rglq8AYcBLoAdqt/z3uaAf2AG8GY67G2DSapOi8QagKfATs2ATDbfEk8AnKWUj7zsUJDaJPsyXg8CYb64IjwDL69NPWVB7dASwBXQ0y1AUFdFI3Ed7vPfRpttW/zDZgBFgEKsBw8A3gKPr0Ox0K5tD3mY8bZXUdDKOvl+FI+yXRtgC0AhwSDauoRbjVqKATqkTaO4E/RXt/CyqcieJr4N5mW+uJ9cjfd4FvRPtgCyo2i0J28sFB4CLwHVAG/gpKGbgetB1M0DFm8U3a+jIobxb92XocDI8ih9oIZ9GnSlwpozbqnEHfNtSaqaA7hRB7hL5FUB4t+rHDg0wB+MGBiCxT+G0RHULPAwzKXVEEfk9BJiwr6NPfBpr9aQgVMYcjVeBz4BSwG9gelN3Bty9i5NY8SGVGqID5lylhN30KwFWD/IqlfIhMCOXQ10wNdexwxRn0GPKGg3wmhN4yyPmQCXHWoO+EpWxqQjl011yytz0W14TOGUu51IR6Rf81oNvB8Dh0oW8h+y3kNtjf4jHwq6I+DvzqoUfiN1TYFcVrrkp8CBVFXRqRBlKXHCsRPoSeEfVpDx1x+ClhLCu4rqH7on+bz6AxaBO671vIpF5DPuGRLaQ9/6ZVYIMlUX/aQ0ccpK5FVwU+hCqi3uuhIw5SV0MITYq6s2utA7klTPgocXUKB9A31ud9BhYooG+sL1rIZRL6lIXMVTfbjfhS6PzFUi6T4PSkQe6MpawJQwZ9tlM5s+PDlJCrAR9YykdxFv344LJ2MiEEKphcMchfwy5Y7UafZuvAHeA5BzsyIwTquBx3lC4B76BukdqC0hN8K8XIVYE+RxsyJRSSMv1SruWOBxmj/VlcY3Whjs2+ZCaAnR7jGq+xsrpoBHVsnrEkEbrm11OMJy8aK4+gUudPRTrtQx2xfTAelP0ot1tExWfPBu0LqHBmAnX2+dlznBAviPptgA/ZyNJ0p9ys+IyNto9A86ZTktCJnkzuh+ZNeCVBJrzmCRJeoNJ5cj840ngbrdGHvo+9G+2QRyVeox2W+f8kjWcxPJkZQI+pllEJ2mZBH+a0/vE4gXOicxjGfMrWOopO1Jr5G92+oSThek9jLqPutffiF1HYoiMY423gCnpyOCyJT2NCPFSPl0IMoDuKZiiz1FkzScij3OFCExCZD2yp+wDQlH02oRU4hnrgdAiVWnwceMxS3hVV1BPNW8CPwLfA98A/SYL/AZBGQky10Fr2AAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/Images/PrimaryImg.jpeg":
+/*!************************************!*\
+  !*** ./src/Images/PrimaryImg.jpeg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/PrimaryImg.2be27176.jpeg";
+
+/***/ }),
+
+/***/ "./src/Images/SecondImg.jpg":
+/*!**********************************!*\
+  !*** ./src/Images/SecondImg.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/SecondImg.63d933e7.jpg";
+
+/***/ }),
+
+/***/ "./src/Images/Sunset.jpg":
+/*!*******************************!*\
+  !*** ./src/Images/Sunset.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Sunset.287782f5.jpg";
+
+/***/ }),
+
+/***/ "./src/Images/X.png":
+/*!**************************!*\
+  !*** ./src/Images/X.png ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAkCAIAAABjfH+IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVEhLzc1LdsIwEEVB9r/pxDGF4WGpJX8GqQkH3e72Y/NzN3f39Du42GPqGrdqZs9yZYaN4+ynv/eiHWUzSX5anmmSnaRtn1koSRsxnbRV/mnR+swl7WX3v0VrMZG0D62nFi1pSUvn970mbacfWrSD31iUraV4L4zyHNN9ExMj5kpzQ30mRqbnOuSR//QZJzsMlcZDjpWM9g0mnJlgoaPKDqRhauo2q0lbeUraTjtYStoHIWnp0vJCTtqH7yeDSeswlLSX+G8kaSWjSVu9/4hJm2AhadtnPKdnmmctSXU+ynLqvZ/8xpMTQ8YvcKhg8DLnmozcxNEv4q2cfjx+ARYzJFs6rl37AAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/SecondPage/Footer/Bottom.js":
+/*!*****************************************!*\
+  !*** ./src/SecondPage/Footer/Bottom.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\Footer\\Bottom.js";
+
+
+
+
+ //Bottom Nav 
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    position: absolute;
+    left: 50%;
+    bottom: 3vh;
+    display: inline-block;
+
+    @media(min-width: 916px) {
+   
+   font-size: 1.45em;
+   
+}
+    
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1.5em;
+    z-index: 5;
+    right: 50%;
+    margin-right: 1.5vw;
+    text-decoration: underline;
+    
+    
+`;
+
+const Bottom = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (Bottom);
+
+/***/ }),
+
+/***/ "./src/SecondPage/Footer/Footer.js":
+/*!*****************************************!*\
+  !*** ./src/SecondPage/Footer/Footer.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+/* harmony import */ var _Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/Footer/LeftSide */ "./src/Styles/Footer/LeftSide.js");
+/* harmony import */ var _Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Footer/RightSide */ "./src/Styles/Footer/RightSide.js");
+/* harmony import */ var _Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/Bottom */ "./src/SecondPage/Footer/Bottom.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\Footer\\Footer.js";
+
+
+
+
+
+ //Footer Component
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    flex-direction: row;
+    align-items: flex-end;
+    background: #606060;
+    padding-top: 5vh;
+    bottom: 0;
+    box-shadow: none;
+    z-index: 7;
+    @media(min-width: 916px) {
+        padding-top: 7.5vh;
+        font-size: 1.25em;
+
+        
+    }
+`;
+
+const Footer = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/SecondPage/Header/Header.js":
+/*!*****************************************!*\
+  !*** ./src/SecondPage/Header/Header.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../Styles/HeaderContainer */ "./src/Styles/HeaderContainer.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\Header\\Header.js";
+
+
+
+ //Header For Second Page
+
+const HeaderWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom right, #014421, #007070);
+    padding-bottom: 30vh;
+    box-shadow: #000 0px 0px 10px;
+   
+`;
+const TitleText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    font-size: 2em;
+    top: 15vh;
+
+    @media(min-width: 916px) {
+        top: 20vh;
+    
+    }
+
+`;
+
+const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Portfolio"));
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Background.js":
+/*!**************************************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/CarouselStyles/Background.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../../Images/EaglePlume.jpg */ "./src/Images/EaglePlume.jpg");
+/* harmony import */ var _Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+const Background = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+    margin: 5vh 2.5vw 0 2.5vw;
+    height: 50vh;
+    background-color: deepskyblue;
+    background-size: 100% 95%;
+    
+
+    @media(min-width: 916px) {
+        margin: 3vh 5vw 0 5vw;
+        
+        height: 65vh;
+
+        
+    }
+`;
+/* harmony default export */ __webpack_exports__["default"] = (Background);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Container.js":
+/*!*************************************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/CarouselStyles/Container.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background: #fff;
+    height: 80vh;
+    max-width: 80%;
+    @media(min-width: 916px) {
+        height: 90vh;
+
+
+        
+    }
+`;
+/* harmony default export */ __webpack_exports__["default"] = (Container);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Link.js":
+/*!********************************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/CarouselStyles/Link.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+const A = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
+    text-decoration: none;
+    color: #800000;
+`;
+/* harmony default export */ __webpack_exports__["default"] = (A);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionText.js":
+/*!***************************************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionText.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../../Styles/SectionText */ "./src/Styles/SectionText.js");
+
+
+
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    margin: 0 3vw;
+    border-top: 2px solid #000;
+    padding-top: 2vh;
+    color: #000;
+    text-shadow: none;
+    font-size: .85em;
+`;
+/* harmony default export */ __webpack_exports__["default"] = (SectionText);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionTitle.js":
+/*!****************************************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionTitle.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+
+
+
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    text-shadow: none;
+    border-bottom: 2px solid #000;
+
+    @media(min-width: 916px) {
+        margin: 2vh auto;
+        font-size: 1.65em;
+
+        
+    }
+`;
+/* harmony default export */ __webpack_exports__["default"] = (SectionTitle);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/FirstPane.js":
+/*!**********************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/FirstPane.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _CarouselStyles_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CarouselStyles/Container */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Container.js");
+/* harmony import */ var _CarouselStyles_Background__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CarouselStyles/Background */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Background.js");
+/* harmony import */ var _CarouselStyles_Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CarouselStyles/Link */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Link.js");
+/* harmony import */ var _CarouselStyles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CarouselStyles/SectionTitle */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionTitle.js");
+/* harmony import */ var _CarouselStyles_SectionText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CarouselStyles/SectionText */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionText.js");
+/* harmony import */ var _Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../Images/EaglePlume.jpg */ "./src/Images/EaglePlume.jpg");
+/* harmony import */ var _Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\MainSection\\Carousel\\FirstPane.js";
+
+
+
+
+
+
+
+
+const BG = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_CarouselStyles_Background__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    background: url(${_Images_EaglePlume_jpg__WEBPACK_IMPORTED_MODULE_7___default.a}) no-repeat top center;
+    background-size: 100% 95%;
+`;
+
+const SecondarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_SectionTitle__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_Link__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  href: "http://www.eagle-plumes.com",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "Eagle Plume's")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BG, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_SectionText__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, "Eagle Plume's is owned and operated by a local to Estes Park. Her website was 15 years old and lacked a user-friendly UI/UX. I was able to build her an inexpensive UI/UX-friendly WordPress site w/ an e-commerce section. She now has complete control over her modern website through GoDaddy."));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondarySection);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousel/SecondPane.js":
+/*!***********************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousel/SecondPane.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CarouselStyles_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CarouselStyles/Container */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Container.js");
+/* harmony import */ var _CarouselStyles_Background__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CarouselStyles/Background */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Background.js");
+/* harmony import */ var _CarouselStyles_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CarouselStyles/Link */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/Link.js");
+/* harmony import */ var _CarouselStyles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CarouselStyles/SectionTitle */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionTitle.js");
+/* harmony import */ var _CarouselStyles_SectionText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CarouselStyles/SectionText */ "./src/SecondPage/MainSection/Carousel/CarouselStyles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\MainSection\\Carousel\\SecondPane.js";
+
+
+
+
+
+
+
+const SecondarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_Link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  href: "http://www.eagle-plumes.com",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, "Old Freelance Site")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_Background__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CarouselStyles_SectionText__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "I personally made this WordPress site for my old freelance gig back in November of 2018. Although it's a simple WordPress site, it inspired me to recreate it with my own HTML/CSS. Both of which helped me learn a lot as well as motivate me to learn more and more to be able to make an even better app."));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondarySection);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/CarouselOne.js":
+/*!***************************************************!*\
+  !*** ./src/SecondPage/MainSection/CarouselOne.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Carousel_FirstPane__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Carousel/FirstPane */ "./src/SecondPage/MainSection/Carousel/FirstPane.js");
+/* harmony import */ var _Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Carousel/SecondPane */ "./src/SecondPage/MainSection/Carousel/SecondPane.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\MainSection\\CarouselOne.js";
+
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    height: 0;
+    min-width: 75%;
+    padding-bottom: 9vh;
+    box-shadow: none;
+    padding-left: 0;
+    cursor: default;
+    margin: inherit auto;
+
+    @media(min-width: 916px) {
+        
+        font-size: 1.35em;
+
+        
+    }
+
+`;
+
+const CarouselOne = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel_FirstPane__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (CarouselOne);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/Carousell.js":
+/*!*************************************************!*\
+  !*** ./src/SecondPage/MainSection/Carousell.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Carousel/SecondPane */ "./src/SecondPage/MainSection/Carousel/SecondPane.js");
+/* harmony import */ var _Carousel_FirstPane__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Carousel/FirstPane */ "./src/SecondPage/MainSection/Carousel/FirstPane.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _CarouselOne__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CarouselOne */ "./src/SecondPage/MainSection/CarouselOne.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\MainSection\\Carousell.js";
+
+
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    height: 0;
+    min-width: 75%;
+    padding-bottom: 5vh;
+    box-shadow: none;
+    padding-left: 0;
+    cursor: default;
+    margin: inherit auto;
+
+    @media(min-width: 916px) {
+        
+        font-size: 1.35em;
+
+        
+    }
+
+`;
+const TitleOne = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__["default"])`
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    color: #000;
+    background-color: #dedede;
+    padding: 2.6vh 1vw;
+    text-shadow: none;
+    position: absolute;
+    margin: auto 0;
+    min-width: 46.5%;
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        top: 0vh;
+        left: 0vw;
+        border: 1px solid;
+    
+
+
+    
+`;
+const TitleTwo = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__["default"])`
+font-family: "Times New Roman";
+    font-size: 1.2em;
+    color: #000;
+    background-color: #fff;
+    padding: 2.6vh 2vw;
+    text-shadow: none;
+    position: absolute;
+    margin: auto 0;
+    min-width: 45%;
+    cursor: pointer;
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        top: 0vh;
+        right: 0vw;
+        border: 1px solid;
+`;
+const TitleThree = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__["default"])`
+font-family: "Times New Roman";
+    font-size: 1.2em;
+    color: #000;
+    background-color: #dedede;
+    padding: 2.6vh 2vw;
+    text-shadow: none;
+    position: absolute;
+    margin: auto 0;
+    min-width: 45%;
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        top: 0vh;
+        right: 0vw;
+        border: 1px solid;
+`;
+const TitleFour = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_6__["default"])`
+font-family: "Times New Roman";
+    font-size: 1.2em;
+    color: #000;
+    background-color: #fff;
+    padding: 2.6vh 1vw;
+    text-shadow: none;
+    position: absolute;
+    margin: auto 0;
+    min-width: 46.5%;
+    cursor: pointer;
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        top: 0vh;
+        left: 0vw;
+        border: 1px solid;
+`;
+
+const Toggle = () => {
+  const [isToggled, setToggled] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const toggleTrueFalse = () => setToggled(!isToggled);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, isToggled === false ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: toggleTrueFalse,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleTwo, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: undefined
+  }, "Side Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleOne, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: undefined
+  }, "Freelance")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel_FirstPane__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: undefined
+  }))) : null, isToggled !== false ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleThree, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: undefined
+  }, "Side Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: toggleTrueFalse,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleFour, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132
+    },
+    __self: undefined
+  }, "Freelance"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: undefined
+  })) : null);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Toggle);
+
+/***/ }),
+
+/***/ "./src/SecondPage/MainSection/MainSection.js":
+/*!***************************************************!*\
+  !*** ./src/SecondPage/MainSection/MainSection.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionContainer */ "./src/Styles/MainSectionContainer.js");
+/* harmony import */ var _Images_Sunset_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Images/Sunset.jpg */ "./src/Images/Sunset.jpg");
+/* harmony import */ var _Images_Sunset_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Images_Sunset_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Carousel_SecondPane__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Carousel/SecondPane */ "./src/SecondPage/MainSection/Carousel/SecondPane.js");
+/* harmony import */ var _Carousel_FirstPane__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Carousel/FirstPane */ "./src/SecondPage/MainSection/Carousel/FirstPane.js");
+/* harmony import */ var _Carousell__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Carousell */ "./src/SecondPage/MainSection/Carousell.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\MainSection\\MainSection.js";
+
+
+
+
+
+
+ //Main Section Items Wrapper
+
+const MainSectionWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    padding-bottom: 10vh;
+    background: url(${_Images_Sunset_jpg__WEBPACK_IMPORTED_MODULE_3___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+`;
+
+const MainSection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainSectionWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousell__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (MainSection);
+
+/***/ }),
+
+/***/ "./src/SecondPage/SecondPage.js":
+/*!**************************************!*\
+  !*** ./src/SecondPage/SecondPage.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header/Header */ "./src/SecondPage/Header/Header.js");
+/* harmony import */ var _src_SecondPage_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../src/SecondPage/MainSection/MainSection */ "./src/SecondPage/MainSection/MainSection.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer/Footer */ "./src/SecondPage/Footer/Footer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\SecondPage\\SecondPage.js";
+
+
+
+ //Portfolio Page
+
+const SecondPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_SecondPage_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondPage);
+
+/***/ }),
+
+/***/ "./src/Styles/Footer/Icons.js":
+/*!************************************!*\
+  !*** ./src/Styles/Footer/Icons.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Social Icons
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+    img {
+        height: 3.5vh;
+        width: 5vw;  
+        margin-top: 1vh; 
+    }
+
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/Footer/LeftSide.js":
+/*!***************************************!*\
+  !*** ./src/Styles/Footer/LeftSide.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icons */ "./src/Styles/Footer/Icons.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\Footer\\LeftSide.js";
+
+
+
+ //Left Side of Footer
+
+const LSStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+    color: #fff;
+    position: relative;
+    bottom: 5vh;
+    left: 3vw;
+
+    img {
+        width: 1.25em;
+        height: 1.25em;
+    }
+    @media(min-width: 916px) {
+        bottom: 7.5vh;
+        margin-left: 12.5vw;
+        font-size: .9em;
+        
+    }
+`;
+
+const LeftSide = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LSStyles, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Follow Me!", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icons__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  href: "http://www.instagram.com",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  src: __webpack_require__(/*! ../../Images/IIcon.png */ "./src/Images/IIcon.png"),
+  alt: "Instagram Icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+})))));
+
+/* harmony default export */ __webpack_exports__["default"] = (LeftSide);
+
+/***/ }),
+
+/***/ "./src/Styles/Footer/RightSide.js":
+/*!****************************************!*\
+  !*** ./src/Styles/Footer/RightSide.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\Footer\\RightSide.js";
+
+
+ //Right Side of Footer
+
+const RSStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+    font-size: .75em;
+    position: relative;
+    margin: auto;
+    margin-right: 3vw;
+    bottom: 6vh;
+    
+    @media(min-width: 916px) {
+        bottom: 7.5vh;
+        margin-right: 2.5vw;
+    }
+`;
+
+const RightSide = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RSStyles, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "Built W/ NPM, Reactjs,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), "Styled-Components, & VSC"));
+
+/* harmony default export */ __webpack_exports__["default"] = (RightSide);
+
+/***/ }),
+
+/***/ "./src/Styles/Global.js":
+/*!******************************!*\
+  !*** ./src/Styles/Global.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+
+const GlobalStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"]`
+    html, body {
+        margin: 0;
+        padding: 0;
+
+    }
+`;
+/* harmony default export */ __webpack_exports__["default"] = (GlobalStyles);
+
+/***/ }),
+
+/***/ "./src/Styles/HeaderContainer.js":
+/*!***************************************!*\
+  !*** ./src/Styles/HeaderContainer.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../src/Styles/Wrapper */ "./src/Styles/Wrapper.js");
+
+
+ //Header Section Styles
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    padding-bottom: 12.5vh;
+    margin-bottom: 5vh;
+    background: none;
+    background-size: 100% 100%;
+    box-shadow: #000 0px 0px 10px; 
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: #000 0px 0px 10px;
+    text-align: center;
+    top: 6vh;
+    right: 0;
+    z-index: 5;
+    max-width: 100%;
+    
+    @media(min-width: 916px) {
+        padding-bottom: 40vh;
+        font-size: 1.45em;
+    }
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/MainSectionContainer.js":
+/*!********************************************!*\
+  !*** ./src/Styles/MainSectionContainer.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../src/Styles/Wrapper */ "./src/Styles/Wrapper.js");
+
+
+ //Main Section Styles
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    margin-top: 5vh;
+    padding-bottom: 25vh;
+    text-align: center;
+    background: #014421;
+    top: 0;
+    right: 0;
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/MainSectionItem.js":
+/*!***************************************!*\
+  !*** ./src/Styles/MainSectionItem.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../src/Styles/Wrapper */ "./src/Styles/Wrapper.js");
+
+
+ //Main Section Items
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_src_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    z-index: 6;
+    height: 35vh;
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: #000 0px 0px 10px;
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/DropDownContainer.js":
+/*!************************************************!*\
+  !*** ./src/Styles/NavBar/DropDownContainer.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _NavBarContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavBarContainer */ "./src/Styles/NavBar/NavBarContainer.js");
+/* harmony import */ var _NavBarItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBarItem */ "./src/Styles/NavBar/NavBarItem.js");
+
+
+
+
+
+const DropDownStyles = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_NavBarContainer__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    display: inline-block;
+    background-color: #fff;
+    align-self: right;
+
+
+    padding-top: 7.5vh;
+    padding-bottom: 3.25vh;
+  
+
+    right: 0;
+
+    max-width: 50%;
+    
+    
+    @media(min-width: 915px) {
+        display: none;
+    }
+`;
+/* harmony default export */ __webpack_exports__["default"] = (DropDownStyles);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/HamburgerMenu.js":
+/*!********************************************!*\
+  !*** ./src/Styles/NavBar/HamburgerMenu.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Images_HamburgerImg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Images/HamburgerImg.png */ "./src/Images/HamburgerImg.png");
+/* harmony import */ var _Images_HamburgerImg_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Images_HamburgerImg_png__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\NavBar\\HamburgerMenu.js";
+
+
+
+const HamburgerStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
+height: 4vh;
+width: 7.5vw;
+position: fixed;
+z-index: 11;
+margin: auto 0;
+top: 3vh;
+right: 4vw;
+
+cursor: pointer;
+-webkit-transition-y: transform .6s ease-out;
+    -moz-transition: transform .6s ease-out;
+    -o-transition: transform .6s ease-out;
+    -ms-transition: transform .6s ease-out;
+    transition: transform .6s ease-out;
+    
+@media(min-width: 915px) {
+        display: none;
+    }
+    @media(max-width: 768px) {
+        display: inline-block;
+    }
+
+`;
+
+const Hamburger = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HamburgerStyles, {
+  src: __webpack_require__(/*! ../../Images/HamburgerImg.png */ "./src/Images/HamburgerImg.png"),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Hamburger);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/Logo.js":
+/*!***********************************!*\
+  !*** ./src/Styles/NavBar/Logo.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Logo Style
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+    position: relative;
+    margin: auto;
+    margin-left: 7.5vw;
+    top: 0;
+    left: 7.5vw;
+    text-align: left;
+
+    @media(min-width: 916px) {
+        display: inline-block;
+        font-size: 1.25em;
+    }
+
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/MobileNav.js":
+/*!****************************************!*\
+  !*** ./src/Styles/NavBar/MobileNav.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavBar */ "./src/Styles/NavBar/NavBar.js");
+/* harmony import */ var _HamburgerMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HamburgerMenu */ "./src/Styles/NavBar/HamburgerMenu.js");
+/* harmony import */ var _XComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./XComponent */ "./src/Styles/NavBar/XComponent.js");
+/* harmony import */ var _DropDownContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./DropDownContainer */ "./src/Styles/NavBar/DropDownContainer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\NavBar\\MobileNav.js";
+
+
+
+
+
+
+
+
+const MobileNav = () => {
+  const [isToggled, setToggled] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const toggleTrueFalse = () => setToggled(!isToggled);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, isToggled !== false ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DropDownContainer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: toggleTrueFalse,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_XComponent__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: toggleTrueFalse,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HamburgerMenu__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MobileNav);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/NavBar.js":
+/*!*************************************!*\
+  !*** ./src/Styles/NavBar/NavBar.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Logo */ "./src/Styles/NavBar/Logo.js");
+/* harmony import */ var _NavBarContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBarContainer */ "./src/Styles/NavBar/NavBarContainer.js");
+/* harmony import */ var _NavBarItem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./NavBarItem */ "./src/Styles/NavBar/NavBarItem.js");
+/* harmony import */ var _ScrollToTop__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ScrollToTop */ "./src/Styles/NavBar/ScrollToTop.js");
+/* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./MobileNav */ "./src/Styles/NavBar/MobileNav.js");
+/* harmony import */ var _FrontPage_FirstPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../FrontPage/FirstPage */ "./src/FrontPage/FirstPage.js");
+/* harmony import */ var _SecondPage_SecondPage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../SecondPage/SecondPage */ "./src/SecondPage/SecondPage.js");
+/* harmony import */ var _ThirdPage_ThirdPage__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../ThirdPage/ThirdPage */ "./src/ThirdPage/ThirdPage.js");
+/* harmony import */ var _FourthPage_FourthPage__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../FourthPage/FourthPage */ "./src/FourthPage/FourthPage.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\NavBar\\NavBar.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+const NavBarStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+        display: inline-block;
+        width: 100%;
+`;
+
+const NavBar = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBarStyles, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ScrollToTop__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBarContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Trevor's Code!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MobileNav__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/",
+  activeStyle: {
+    backgroundColor: "lightgrey",
+    textDecoration: "underline"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBarItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBarItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBarItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBarItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  exact: true,
+  path: "/",
+  component: _FrontPage_FirstPage__WEBPACK_IMPORTED_MODULE_8__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/portfolio",
+  component: _SecondPage_SecondPage__WEBPACK_IMPORTED_MODULE_9__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/about",
+  component: _ThirdPage_ThirdPage__WEBPACK_IMPORTED_MODULE_10__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/contact",
+  component: _FourthPage_FourthPage__WEBPACK_IMPORTED_MODULE_11__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+})));
+
+/* harmony default export */ __webpack_exports__["default"] = (NavBar);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/NavBarContainer.js":
+/*!**********************************************!*\
+  !*** ./src/Styles/NavBar/NavBarContainer.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Wrapper */ "./src/Styles/Wrapper.js");
+
+
+ //NavBar Styles
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    width: 100%;
+    min-height: 35px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3vh 0vw;
+    position: fixed;
+    z-index: 10;
+    background: #fff;
+    top: 0;
+    right: 0;
+    box-shadow: #000 0px 0px 3px;
+    
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/NavBarItem.js":
+/*!*****************************************!*\
+  !*** ./src/Styles/NavBar/NavBarItem.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Navigation Bar Items
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button`
+    text-decoration: none;
+    z-index: 3;
+    border: 1px solid;
+    margin: 0 .75vw;
+    padding: 1vh 1.5vw;
+    position: relative;
+    right: 14vw;
+    color: #000;
+    background: #fff;
+    box-shadow: lightgrey 2px 4px 7px;
+    cursor: pointer;
+    min-height: 30px;
+    outline: none;
+    
+    :active {
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        
+
+        top: .25vh;
+    }
+
+    @media(max-width: 915px) {
+        display: none;
+    }
+    @media(min-width: 916px) {
+        display: inline-block;
+        padding: 1.5vh 1.5vw;
+        font-size: 1em;
+    }
+    
+
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/ScrollToTop.js":
+/*!******************************************!*\
+  !*** ./src/Styles/NavBar/ScrollToTop.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ScrollToTop; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+
+function ScrollToTop() {
+  const {
+    pathname
+  } = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useLocation"])();
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+/***/ }),
+
+/***/ "./src/Styles/NavBar/XComponent.js":
+/*!*****************************************!*\
+  !*** ./src/Styles/NavBar/XComponent.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _NavBarContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavBarContainer */ "./src/Styles/NavBar/NavBarContainer.js");
+/* harmony import */ var _NavBarItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBarItem */ "./src/Styles/NavBar/NavBarItem.js");
+/* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./MobileNav */ "./src/Styles/NavBar/MobileNav.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\NavBar\\XComponent.js";
+
+
+
+
+
+
+const NavBarItemMobile = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_NavBarItem__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    @media only screen and (min-device-width: 320px) {
+        display: inline-block;
+       
+        min-width: 80%;
+        margin: 0;
+        margin-top: 1.5vh;
+
+        padding: 1.5vh 4vw;
+        top: 0vh;
+        left: 5vw;
+        font-size: .9em;
+        box-shadow: none;
+
+        :active {
+        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
+        -moz-box-shadow: inset 0px 0px 5px lightgrey;
+        box-shadow: inset 0px 0px 5px lightgrey;
+        
+        top: .25vh;
+        
+    }
+    }
+`;
+const XStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
+    
+    display: block;
+    height: 3vh;
+    width: 4vw;
+    position: fixed;
+    z-index: 11;
+   
+   
+    top: 3.5vh;
+    right: 6vw;
+    
+    cursor: pointer;
+  
+    -webkit-transition-y: transform .6s ease-out;
+    -moz-transition: transform .6s ease-out;
+    -o-transition: transform .6s ease-out;
+    -ms-transition: transform .6s ease-out;
+    transition: transform .6s ease-out;
+    
+
+    @media only screen and (max-device-width: 560px) {
+        display: inline-block;
+        
+    };
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1060px) {
+        display: none;
+    };
+
+`;
+
+const DropDownMenu = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(XStyles, {
+  src: __webpack_require__(/*! ../../Images/X.png */ "./src/Images/X.png"),
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 70
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBarItemMobile, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 74
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 77
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBarItemMobile, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 78
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBarItemMobile, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 85
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavBarItemMobile, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 86
+  },
+  __self: undefined
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (DropDownMenu);
+
+/***/ }),
+
+/***/ "./src/Styles/Overlay.js":
+/*!*******************************!*\
+  !*** ./src/Styles/Overlay.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../Theme */ "./src/Theme.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Styles\\Overlay.js";
+
+
+
+ //Overlay Style
+
+const OverlayStyles = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section`
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    min-width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background: none;
+   
+`;
+
+const Overlay = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_components__WEBPACK_IMPORTED_MODULE_1__["ThemeProvider"], {
+  theme: _Theme__WEBPACK_IMPORTED_MODULE_2__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(OverlayStyles, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Overlay);
+
+/***/ }),
+
+/***/ "./src/Styles/SectionText.js":
+/*!***********************************!*\
+  !*** ./src/Styles/SectionText.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Fancy Text Style
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
+    position: relative;
+    top: 2vh;
+    font-size: 1em;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+    list-style-position: inside;
+    line-height : 1.15em;
+    letter-spacing: .15vw;
+    text-shadow: #000 0px 0px 10px;
+    z-index: 5;
+    
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/SectionTitle.js":
+/*!************************************!*\
+  !*** ./src/Styles/SectionTitle.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Fancy Title Style
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h3`
+    position: relative;
+    top: 2vh;
+
+    font-size: 1.5em;
+    color: #fff;
+
+    margin: 0 auto;
+
+    text-align: center; 
+    text-shadow: #000 0px 0px 10px;
+    z-index: 5;
+`);
+
+/***/ }),
+
+/***/ "./src/Styles/Wrapper.js":
+/*!*******************************!*\
+  !*** ./src/Styles/Wrapper.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+ //Flex-Box/Wrapper Style
+
+/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+    display: flex;
+	flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+
+    
+`);
+
+/***/ }),
+
+/***/ "./src/Theme.js":
+/*!**********************!*\
+  !*** ./src/Theme.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\Theme.js";
+
+
+const theme = {
+  overlay: {
+    position: "absolute",
+    margin: "0 auto",
+    height: "100%",
+    minWidth: "100%",
+    top: "0",
+    right: "0",
+    bottom: "0",
+    left: "0",
+    zIndex: "4",
+    bg: ["rgba(00, 00, 00, .9)", "rgba(00, 00, 00, .25)", "rgba(00, 00, 00, .3)"]
+  }
+};
+
+const Theme = ({
+  children
+}) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_components__WEBPACK_IMPORTED_MODULE_1__["ThemeProvider"], {
+  theme: theme,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, children);
+
+/* harmony default export */ __webpack_exports__["default"] = (Theme);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/Footer/Bottom.js":
+/*!****************************************!*\
+  !*** ./src/ThirdPage/Footer/Bottom.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\Footer\\Bottom.js";
+
+
+
+
+ //Bottom Nav 
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    position: absolute;
+    left: 50%;
+    bottom: 3vh;
+    display: inline-block;
+    
+    @media(min-width: 916px) {
+   
+   font-size: 1.45em;
+   
+}
+    
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1.5em;
+    z-index: 5;
+    right: 50%;
+    margin-right: 1.5vw;
+    text-decoration: underline;
+    
+`;
+
+const Bottom = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+  to: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (Bottom);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/Footer/Footer.js":
+/*!****************************************!*\
+  !*** ./src/ThirdPage/Footer/Footer.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/Wrapper */ "./src/Styles/Wrapper.js");
+/* harmony import */ var _Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/Footer/LeftSide */ "./src/Styles/Footer/LeftSide.js");
+/* harmony import */ var _Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/Footer/RightSide */ "./src/Styles/Footer/RightSide.js");
+/* harmony import */ var _Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/Bottom */ "./src/ThirdPage/Footer/Bottom.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\Footer\\Footer.js";
+
+
+
+
+
+ //Footer Component
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_Wrapper__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    flex-direction: row;
+    align-items: flex-end;
+    background: #606060;
+    padding-top: 5vh;
+    bottom: 0;
+    box-shadow: none;
+    z-index: 7;
+
+    @media(min-width: 916px) {
+        padding-top: 7.5vh;
+        font-size: 1.25em;
+
+        
+    }
+`;
+
+const Footer = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_LeftSide__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Bottom__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_Footer_RightSide__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/Header/Header.js":
+/*!****************************************!*\
+  !*** ./src/ThirdPage/Header/Header.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../Styles/HeaderContainer */ "./src/Styles/HeaderContainer.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\Header\\Header.js";
+
+
+
+ //Header For Second Page
+
+const HeaderWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background-image: linear-gradient(to bottom right, #014421, #007070);
+    padding-bottom: 30vh;
+    box-shadow: #000 0px 0px 10px;
+`;
+const TitleText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    font-size: 2em;
+    top: 15vh;
+    margin: 0 auto;
+
+    @media(min-width: 916px) {
+        top: 20vh;
+    
+    }
+`;
+
+const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "About Me"));
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/MainSection/MainSection.js":
+/*!**************************************************!*\
+  !*** ./src/ThirdPage/MainSection/MainSection.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Images_PrimaryImg_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Images/PrimaryImg.jpeg */ "./src/Images/PrimaryImg.jpeg");
+/* harmony import */ var _Images_PrimaryImg_jpeg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Images_PrimaryImg_jpeg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/MainSectionContainer */ "./src/Styles/MainSectionContainer.js");
+/* harmony import */ var _PrimarySection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PrimarySection */ "./src/ThirdPage/MainSection/PrimarySection.js");
+/* harmony import */ var _SecondarySection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SecondarySection */ "./src/ThirdPage/MainSection/SecondarySection.js");
+/* harmony import */ var _TertiarySection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./TertiarySection */ "./src/ThirdPage/MainSection/TertiarySection.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\MainSection\\MainSection.js";
+
+
+
+
+
+
+ //Main Section Items Wrapper
+
+const MainSectionWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionContainer__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    padding-bottom: 10vh;
+    background: url(${_Images_PrimaryImg_jpeg__WEBPACK_IMPORTED_MODULE_2___default.a}) no-repeat top center;
+    background-size: 100% 100%;
+
+    @media(min-width: 1060px) {
+
+        
+        flex-direction: row;
+        
+        
+        
+    }
+`;
+
+const MainSection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainSectionWrap, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimarySection__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondarySection__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TertiarySection__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (MainSection);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/MainSection/PrimarySection.js":
+/*!*****************************************************!*\
+  !*** ./src/ThirdPage/MainSection/PrimarySection.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\MainSection\\PrimarySection.js";
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background: #fff;
+    height: 40vh;
+    max-width: 70%;
+    padding-bottom: 10vh;
+
+    @media(min-width: 916px) {
+        
+        font-size: 1.15em;
+        padding-bottom: 5vh;
+
+        
+    }
+
+    @media(min-width: 1060px) {
+        font-size: 1.05em;
+        height: 65vh;
+        width: 30%;
+        
+        margin-left: 1vw;
+        
+    }
+        
+        
+        
+    
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    color: #000;
+    text-shadow: none;
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    color: #000;
+    text-shadow: none;
+
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+        
+        
+        
+    }
+`;
+
+const PrimarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
+  },
+  __self: undefined
+}, "My Hobbies..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "My biggest hobby is probably meditation, I've been practicing for a few years and think it's one of the best ways to deal with stress. Especially if it's alongside hiking or being in nature, i find it very fulfilling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, "I'm also a homebody and spend a decent amount of time playing video games, watching tv, coding, and cooking."));
+
+/* harmony default export */ __webpack_exports__["default"] = (PrimarySection);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/MainSection/SecondarySection.js":
+/*!*******************************************************!*\
+  !*** ./src/ThirdPage/MainSection/SecondarySection.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\MainSection\\SecondarySection.js";
+
+
+
+
+ //Will-be Carousel Component
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background: #fff;
+    height: 35vh;
+    max-width: 70%;
+    padding-bottom: 15vh;
+
+    @media(min-width: 916px) {
+        
+        font-size: 1.15em;
+        padding-bottom: 5vh;
+
+        
+    }
+
+    @media(min-width: 1060px) {
+        font-size: 1.05em;
+        height: 65vh;
+        width: 30%;
+        
+        margin-left: 1vw;
+        
+    }
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    color: #000;
+    text-shadow: none;
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    color: #000;
+    text-shadow: none;
+    
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+     
+        
+        
+    }
+
+`;
+
+const SecondarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54
+  },
+  __self: undefined
+}, "My Values..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57
+  },
+  __self: undefined
+}, "I try to be eco-friendly and focus on being a good global citizen. I'd love to find a position at a company that shares that value."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, "What I value most in myself or in others is a sense of community and compassion, I heavily avoid people that mistreat others or act selfishly at the expense of others."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 65
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondarySection);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/MainSection/TertiarySection.js":
+/*!******************************************************!*\
+  !*** ./src/ThirdPage/MainSection/TertiarySection.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var _Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Styles/SectionText */ "./src/Styles/SectionText.js");
+/* harmony import */ var _Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Styles/SectionTitle */ "./src/Styles/SectionTitle.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\MainSection\\TertiarySection.js";
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+    background: #fff;
+    height: 45vh;
+    max-width: 70%;
+
+    @media(min-width: 916px) {
+        
+        font-size: 1.15em;
+        padding-bottom: 5vh;
+
+        
+    }
+
+    @media(min-width: 1060px) {
+        font-size: 1.05em;
+        height: 65vh;
+        width: 30%;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        
+
+    }
+`;
+const SectionTitle = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionTitle__WEBPACK_IMPORTED_MODULE_4__["default"])`
+    color: #000;
+    text-shadow: none;
+`;
+const SectionText = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_SectionText__WEBPACK_IMPORTED_MODULE_3__["default"])`
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    color: #000;
+    text-shadow: none;
+
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+
+        
+        
+    }
+
+`;
+
+const TertiarySection = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionTitle, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53
+  },
+  __self: undefined
+}, "My Goals..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "I'm eager to learn new things. I have a lot of goals in life that require a lot of research."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 59
+  },
+  __self: undefined
+}, "Some of those goals involve helping others, like community outreach, charity, or meditation to make a difference."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionText, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 63
+  },
+  __self: undefined
+}, "Some of my goals are more selfish like wanting to build my own house in the woods, or travelling, or learning a foreign language(czech)."));
+
+/* harmony default export */ __webpack_exports__["default"] = (TertiarySection);
+
+/***/ }),
+
+/***/ "./src/ThirdPage/ThirdPage.js":
+/*!************************************!*\
+  !*** ./src/ThirdPage/ThirdPage.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header/Header */ "./src/ThirdPage/Header/Header.js");
+/* harmony import */ var _MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MainSection/MainSection */ "./src/ThirdPage/MainSection/MainSection.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer/Footer */ "./src/ThirdPage/Footer/Footer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\ThirdPage\\ThirdPage.js";
+
+
+
+
+ //About Me Page
+
+const ThirdPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainSection_MainSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (ThirdPage);
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _src_Styles_Global__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../src/Styles/Global */ "./src/Styles/Global.js");
+/* harmony import */ var _Theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Theme */ "./src/Theme.js");
+/* harmony import */ var _Styles_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Styles/NavBar/NavBar */ "./src/Styles/NavBar/NavBar.js");
+/* harmony import */ var _FrontPage_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FrontPage/Footer/Footer */ "./src/FrontPage/Footer/Footer.js");
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\index.js";
+
+
+
+
+
+ //Main App 
+
+const Site = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Theme__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Styles_Global__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Styles_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}));
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Site, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), document.getElementById('root')); //Start Date: 2/16/2020
+//End Date: 4/?/2020
+//7 weeks from start to finish(sick for 1 week)
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Rmicek\Desktop\my-app\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Rmicek\Desktop\my-app\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Rmicek\Desktop\my-app\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

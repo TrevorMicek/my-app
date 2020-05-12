@@ -1,0 +1,32 @@
+import React from 'react';
+import styled from 'styled-components';
+import MainSectionContainer from '../../Styles/MainSectionContainer';
+import PrimarySection from './PrimarySection';
+import SecondarySection from './SecondarySection';
+import TertiarySection from './TertiarySection';
+
+
+//Main Section Container
+const MainSectionWrap = styled(MainSectionContainer)`
+    padding-bottom: 10vh;
+    background: #014421;
+
+     @media(max-width: 768px) {
+    background: #014030;
+    } 
+
+    @media(min-width: 1060px) {
+        flex-direction: row;
+        
+    }
+    
+    
+`;
+const MainSection = () => (
+    <MainSectionWrap>
+        <PrimarySection />
+        <SecondarySection />
+        <TertiarySection />
+    </MainSectionWrap>
+)
+export default MainSection;

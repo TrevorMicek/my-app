@@ -1,0 +1,278 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/FourthPage/MainSection/Form/Name.js":
+/*!*************************************************!*\
+  !*** ./src/FourthPage/MainSection/Form/Name.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Styles/MainSectionItem */ "./src/Styles/MainSectionItem.js");
+/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/react-hook-form.es.js");
+/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! emailjs-com */ "./node_modules/emailjs-com/source/index.js");
+/* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(emailjs_com__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\Rmicek\\Desktop\\my-app\\src\\FourthPage\\MainSection\\Form\\Name.js";
+
+
+
+
+
+const Container = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(_Styles_MainSectionItem__WEBPACK_IMPORTED_MODULE_2__["default"])`
+  box-shadow: none;
+  border: 2px solid #000;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+  height: 45vh;
+  font-size: 1em;
+  padding: 3vh 10vw 5vh 10vw;
+ 
+
+  
+  @media(min-width: 768px) {
+    max-width: 40%;
+    margin-left: 0;
+  }
+  @media(min-width: 1060px) {
+    max-width: 30%;
+  }
+`;
+const Form = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].form`
+  text-align: left;
+  font-size: .9em;
+
+
+`;
+const Input = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input`
+  
+  margin-top: .5vh;
+  height: 3vh;
+  max-width: 60%;
+  text-align: left;
+  font-size: .9em;
+  font-family: calibri;
+
+  
+  
+  
+`;
+const EmailInput = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(Input)`
+  min-width: 75%;
+`;
+const Label = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].label`
+  margin-top: 1vh;
+`;
+const SubmitInput = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input`
+  padding: .5vh 2vw;
+  margin-bottom: 1vh;
+  height: 4vh;
+  font-size: .9em;
+`;
+const TextArea = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].textarea`
+margin-top: .5vh;
+font-size: 1em;
+width: 85%;
+resize: none;
+  
+`;
+const Err = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  font-size: .9em;
+  color: red;
+`;
+
+function ContactForm() {
+  const {
+    register,
+    handleSubmit,
+    errors
+  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_3__["useForm"])();
+
+  function sendEmail(e) {
+    emailjs_com__WEBPACK_IMPORTED_MODULE_4___default.a.sendForm('gmail', 'contactForm', e.target).then(result => {
+      console.log(result.text);
+    }, error => {
+      console.log(error.text);
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Form, {
+    onSubmit: sendEmail,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Name:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Input, {
+    name: "name",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }), errors.name && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "Email:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EmailInput, {
+    name: "email",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }), errors.email && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "Message:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextArea, {
+    type: "textarea",
+    rows: "4",
+    name: "message",
+    ref: register({
+      required: true
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }), errors.message && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Err, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "*This field is required"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubmitInput, {
+    type: "submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }));
+}
+
+const FormItems = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 111
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactForm, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 112
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (FormItems);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.7ac53e0ddc26bb2f932e.hot-update.js.map
