@@ -55,7 +55,7 @@ const Title = styled(SectionTitle)`
     max-width: 35%;
 
     @media(max-width: 768px) {
-        font-size: 1.35em;
+        font-size: 1.65em;
     }
     
 
