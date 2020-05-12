@@ -30,6 +30,10 @@ const Container = styled(MainSectionItem)`
         
     }
 `;
+const OverlayStyle = styled(Overlay)`
+    background: rgba(00, 00, 00, .05);
+    
+`;
 const SectionTitle = styled(Title)`
     word-spacing: 5vw;
 
@@ -65,8 +69,7 @@ const SecondList = styled.ul`
 `;
 const PrimarySection = () => (
     <Container>
-            <Overlay>
-            </Overlay>
+            <OverlayStyles />
             <SectionTitle>
                 Languages Skills
             </SectionTitle>
