@@ -47,7 +47,8 @@ const HeaderWrap = styled(HeaderContainer)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: ${props => props.theme.overlay.bg[1]};
+    background: rgba(00, 00, 00, .9);
+    
 `;
 const Email = styled.a`
     color: #fff;
