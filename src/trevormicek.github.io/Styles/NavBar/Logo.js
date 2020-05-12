@@ -12,7 +12,7 @@ export default styled.div`
         
     @media(max-width:768px) {
         left: 2vw;
-        top: 2vh;
+        top: 1vh;
         font-size: 1.25em
     }
 
