@@ -55,8 +55,8 @@ const Title = styled(SectionTitle)`
 `;
 const OverlayStyle = styled(Overlay)`
     background: rgba(00, 00, 00, .05);
-    @media(min-width: 768px) {
-        background: rgba(00, 00, 00, .25);
+    @media(max-width: 768px) {
+        background: rgba(00, 00, 00, .15);
     }
     
 `;
