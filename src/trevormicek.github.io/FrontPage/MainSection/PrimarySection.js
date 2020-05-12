@@ -31,7 +31,7 @@ const Container = styled(MainSectionItem)`
     }
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .05);
+    background: rgba(00, 00, 00, .15);
     
 `;
 const SectionTitle = styled(Title)`

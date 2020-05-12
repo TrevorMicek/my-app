@@ -31,6 +31,9 @@ const SectionText = styled(Text)`
     right: 50%;
     margin-right: 1.5vw;
     text-decoration: underline;
+    @media(min-width: 768px) {
+        font-size: .75em;
+    }
     
 `;
 const Bottom = () => (
