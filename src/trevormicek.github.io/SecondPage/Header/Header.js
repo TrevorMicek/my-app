@@ -25,7 +25,7 @@ const TitleText = styled(Title)`
 const Header = () => (
     <HeaderWrap>
         <TitleText>
-            Portfolio
+            My Projects
         </TitleText>
     </HeaderWrap>
 )
