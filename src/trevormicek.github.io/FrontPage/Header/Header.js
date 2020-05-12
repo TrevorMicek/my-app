@@ -47,7 +47,7 @@ const HeaderWrap = styled(HeaderContainer)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .15);
+    background: rgba(00, 00, 10, .15);
     
 `;
 const Email = styled.a`
