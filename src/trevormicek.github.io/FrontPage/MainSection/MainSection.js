@@ -12,7 +12,7 @@ const MainSectionWrap = styled(MainSectionContainer)`
     background: #014421;
 
      @media(max-width: 768px) {
-    background: #144B41;
+    background: #145541;
     } 
 
     @media(min-width: 1060px) {
