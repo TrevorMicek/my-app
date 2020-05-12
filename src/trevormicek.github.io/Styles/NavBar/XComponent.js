@@ -35,14 +35,14 @@ const NavBarItemMobile = styled(NavBarItem)`
 const XStyles = styled.img`
     
     display: block;
-    height: 5vh;
+    height: 4vh;
     width: 5vw;
     position: fixed;
     z-index: 11;
    
    
     top: 3.5vh;
-    right: 9vw;
+    right: 10vw;
     
     cursor: pointer;
   

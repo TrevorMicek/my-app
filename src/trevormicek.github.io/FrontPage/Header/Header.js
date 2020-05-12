@@ -50,7 +50,7 @@ const OverlayStyle = styled(Overlay)`
     background: rgba(00, 00, 00, .05);
 
     @media(max-width: 768px) {
-        background: rgba(00, 00, 20, .15);
+        background: rgba(00, 00, 00, .15);
     }
     
 `;
