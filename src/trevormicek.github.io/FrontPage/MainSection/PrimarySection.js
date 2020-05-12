@@ -16,7 +16,7 @@ const Container = styled(MainSectionItem)`
 
     
     @media(max-width: 768px) {
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
     @media(min-width: 916px) {
         width: 60%;

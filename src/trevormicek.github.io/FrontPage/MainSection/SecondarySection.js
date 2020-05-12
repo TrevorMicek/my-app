@@ -33,6 +33,11 @@ const Container = styled(MainSectionItem)`
         
     }
 `;
+const OverlayStyle = styled(Overlay)`
+    background: rgba(00, 00, 00, .05);
+    
+    
+`;
 const ListText = styled(Text)`
     margin-left: 4vw;
     margin-top: 2vh;
@@ -59,8 +64,7 @@ const SectionTitle = styled(Title)`
 `;
 const SecondarySection = () => (
      <Container >
-        <Overlay>
-        </Overlay>
+        <OverlayStyle />
         <Link to="/about">
          <SectionTitle>
              About Me
