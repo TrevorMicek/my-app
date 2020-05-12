@@ -17,6 +17,10 @@ const SectionText = styled(Text)`
     margin-top: 2vh;
     margin-left: 2vw;
     line-height: 1.5em;
+
+    @media(max-width: 768px) {
+        font-size: 1.35em;
+    }
     @media(min-width: 1060px) {
 margin-left: 0;
         

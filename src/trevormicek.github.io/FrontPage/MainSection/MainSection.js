@@ -13,7 +13,7 @@ const MainSectionWrap = styled(MainSectionContainer)`
 
      @media(max-width: 768px) {
     background: #145541;
-    font-size: 1.1em;
+    
     } 
 
     @media(min-width: 1060px) {
