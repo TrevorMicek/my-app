@@ -54,7 +54,7 @@ const Title = styled(SectionTitle)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .25);
+    background: rgba(00, 00, 00, .15);
     
 `;
 const Links = styled.a`
