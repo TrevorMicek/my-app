@@ -62,7 +62,7 @@ const PDF = styled.a`
     padding-right: 0;
     z-index: 5;
     margin: 0 auto;
-    top: 0;
+    bottom: 10vh;
     right: 10vw;
 
     @media(min-width: 768px) {
