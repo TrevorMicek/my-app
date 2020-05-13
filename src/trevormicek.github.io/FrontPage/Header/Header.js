@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Theme from './../../Theme';
 import SecondImg from '../../Images/SecondImg.jpg';
-
+import Resume from './Resume.pdf';
 import Overlay from './../../Styles/Overlay';
 import HeaderContainer from './../../Styles/HeaderContainer';
 import HeaderTitle from './HeaderTitle';
@@ -119,7 +119,7 @@ const Header = (props) => (
             Hello, I'm Trevor Micek and I am a Front End Developer, <br />
             looking for a position at a business in Colorado.
         </HeaderText>
-        <PDF href="/Resume.pdf" download="Resume.pdf">Resume</PDF>
+        <PDF href={Resume} download="Resume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
         
         <Link to="/portfolio">
