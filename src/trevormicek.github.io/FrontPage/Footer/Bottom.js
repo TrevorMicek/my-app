@@ -31,7 +31,7 @@ const SectionText = styled(Text)`
     line-height: 1.5em;
     z-index: 5;
     right: 50%;
-    margin-right: 1.25vw;
+    margin-right: 1.5vw;
 
     text-decoration: underline;
     @media(max-width: 768px) {
