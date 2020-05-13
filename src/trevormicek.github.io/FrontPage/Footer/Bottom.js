@@ -17,7 +17,7 @@ const Container = styled(Wrapper)`
     bottom: 3vh;
     display: inline-block;
     @media(max-width: 768px) {
-        min-width: 40%;
+        min-width: 50%;
     }
     @media(min-width: 916px) {
    
