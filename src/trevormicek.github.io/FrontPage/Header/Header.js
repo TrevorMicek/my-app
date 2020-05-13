@@ -57,11 +57,10 @@ const OverlayStyle = styled(Overlay)`
 const PDF = styled.a`
        color: #fff;
     display: inline-block;
-    
     text-align: left;
     padding-right: 0;
     z-index: 5;
-    margin: 0 auto;
+    margin-left: 0;
     margin-bottom: 3vh;
     
 
