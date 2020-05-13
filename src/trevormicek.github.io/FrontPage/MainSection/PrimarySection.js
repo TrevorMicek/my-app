@@ -83,7 +83,6 @@ const PrimarySection = () => (
                 <FirstList>
                     <li>ReactJS</li>
                     <li>ES6</li>
-                    <li>AJAX/Json</li>
                     <li>HTML5/CSS3</li>
                 </FirstList>
                 <SecondList>
