@@ -73,7 +73,7 @@ const PDF = styled.a`
 
 
     @media(min-width: 916px) {
-        
+        margin-right: 15vw;
         font-size: 1em;
         
         
@@ -83,7 +83,7 @@ const Email = styled.a`
     color: #fff;
     display: inline-block;
     position: relative;
-    top: 4vh;
+    top: 4.5vh;
     text-align: right;
     padding-right: 0;
     
@@ -99,7 +99,7 @@ const Email = styled.a`
 
 
     @media(min-width: 916px) {
-        
+        margin-right: 15vw;
         font-size: 1.15em;
         margin-bottom: 0;
         
