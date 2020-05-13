@@ -16,7 +16,9 @@ const Container = styled(Wrapper)`
     left: 50%;
     bottom: 3vh;
     display: inline-block;
-    
+    @media(max-width: 768px) {
+        min-width: 30%;
+    }
     @media(min-width: 916px) {
    
         font-size: 1.45em;
