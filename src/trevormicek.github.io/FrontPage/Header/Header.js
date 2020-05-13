@@ -83,7 +83,7 @@ const Email = styled.a`
     color: #fff;
     display: inline-block;
     position: relative;
-    top: 4.5vh;
+    top: 5vh;
     text-align: right;
     padding-right: 0;
     
