@@ -5,17 +5,11 @@ import { NavLink } from 'react-router-dom';
 import Text from '../../Styles/SectionText';
 import Wrapper from '../../Styles/Wrapper';
 
-import FirstPage from '../FirstPage';
-import SecondPage from '../../SecondPage/SecondPage';
-import ThirdPage from '../../ThirdPage/ThirdPage';
-import FourthPage from '../../FourthPage/FourthPage';
-
 //Bottom Nav 
 const Container = styled(Wrapper)`
-    position: absolute;
+    position: relative;
     margin: 0 auto;
-    left: auto;
-    bottom: 3vh;
+  
     display: inline-block;
     @media(max-width: 768px) {
         min-width: 50%;
