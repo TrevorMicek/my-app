@@ -58,6 +58,7 @@ const PDF = styled.a`
        color: #fff;
     display: inline-block;
     position: relative;
+    bottom: 5vh;
     text-align: left;
     padding-right: 0;
     z-index: 5;
@@ -82,7 +83,7 @@ const Email = styled.a`
     color: #fff;
     display: inline-block;
     position: relative;
-    bottom: 7vh;
+    bottom: 3vh;
     text-align: right;
     padding-right: 0;
     
