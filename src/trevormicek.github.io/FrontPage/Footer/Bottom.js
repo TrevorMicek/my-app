@@ -28,8 +28,8 @@ const SectionText = styled(Text)`
     font-size: .5em;
     line-height: 1.5em;
     z-index: 5;
-    right: 50%;
-    margin-right: 1vw;
+    right: 55%;
+    margin-right: 1.5vw;
     text-decoration: underline;
     @media(max-width: 768px) {
         margin-top: 1vh;
