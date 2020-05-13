@@ -75,7 +75,7 @@ const SecondarySection = () => (
             <li>Passionate</li>
             <li>Loves Learning</li>
             <li>Positive & Friendly</li>
-            <li>Accepting of Feedback</li>
+            <li>Eager For Advice</li>
             <li>Determined to Grow</li>
         </ListText>
         <SectionText>

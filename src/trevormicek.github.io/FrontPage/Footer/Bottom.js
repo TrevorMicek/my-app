@@ -16,6 +16,7 @@ const Container = styled(Wrapper)`
     left: 50%;
     bottom: 3vh;
     display: inline-block;
+    overflow: hidden;
     @media(max-width: 768px) {
         min-width: 50%;
     }
