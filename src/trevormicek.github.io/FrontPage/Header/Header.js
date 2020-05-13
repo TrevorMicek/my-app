@@ -57,12 +57,12 @@ const OverlayStyle = styled(Overlay)`
 const PDF = styled.a`
        color: #fff;
     display: inline-block;
-    text-align: right;
+    text-align: left;
     padding-right: 0;
     top: 5vh;
-    right: 4vw;
+    right: 7vw;
     z-index: 5;
-    margin: 0 2vw 0vh auto;
+    margin: 0 2vw 5vh auto;
 
     @media(min-width: 768px) {
         
@@ -74,8 +74,8 @@ const PDF = styled.a`
 
     @media(min-width: 916px) {
         margin-right: 15vw;
-        font-size: 1.15em;
-        margin-bottom: 0;
+        font-size: 1em;
+        
         
     }
 `;
