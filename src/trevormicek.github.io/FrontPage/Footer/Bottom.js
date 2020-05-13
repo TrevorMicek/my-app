@@ -29,8 +29,8 @@ const SectionText = styled(Text)`
     line-height: 1.5em;
     z-index: 5;
     right: 50%;
-    margin-right: 1.5vw;
-    margin-left: 0;
+    margin-right: 1.25vw;
+
     text-decoration: underline;
     @media(max-width: 768px) {
         margin-top: 1vh;
