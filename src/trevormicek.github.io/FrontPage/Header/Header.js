@@ -54,6 +54,31 @@ const OverlayStyle = styled(Overlay)`
     }
     
 `;
+const PDF = styled.a`
+       color: #fff;
+    display: inline-block;
+    text-align: right;
+    padding-right: 0;
+    top: 5vh;
+    right: 4vw;
+    z-index: 5;
+    margin: 0 2vw 0vh auto;
+
+    @media(min-width: 768px) {
+        
+        
+        font-size: 1.1em;
+        
+    }
+
+
+    @media(min-width: 916px) {
+        margin-right: 15vw;
+        font-size: 1.15em;
+        margin-bottom: 0;
+        
+    }
+`;
 const Email = styled.a`
     color: #fff;
     display: inline-block;
@@ -95,7 +120,7 @@ const Header = (props) => (
             Hello, I'm Trevor Micek and I am a Front End Developer, <br />
             looking for a position at a business in Colorado.
         </HeaderText>
-        
+        <PDF href="/Resume.pdf" download>Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
         
         <Link to="/portfolio">
