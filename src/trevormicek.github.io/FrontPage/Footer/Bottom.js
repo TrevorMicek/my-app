@@ -13,7 +13,7 @@ import FourthPage from '../../FourthPage/FourthPage';
 //Bottom Nav 
 const Container = styled(Wrapper)`
     position: absolute;
-    left: 55%;
+    left: 45%;
     bottom: 3vh;
     display: inline-block;
     @media(max-width: 768px) {
