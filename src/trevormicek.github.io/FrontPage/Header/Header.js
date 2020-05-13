@@ -59,8 +59,7 @@ const PDF = styled.a`
     display: inline-block;
     text-align: left;
     padding-right: 0;
-    top: 5vh;
-    right: 7vw;
+    
     z-index: 5;
     margin: 0 2vw 5vh auto;
 
