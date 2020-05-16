@@ -2,7 +2,7 @@ Hello & welcome to my portfolio! This is my first react app
 and I love how it turned out. I commented almost every component
 so there is less confusion on what exactly everything does. My file 
 structure is very neat and easy to navigate. I have a file for each page,
-a file for all images, and a file for frequently used styled components.
+a folder for all images, and a folder for frequently used styled components, called Styles.
 
 The only libraries I used were react-router, styled-components, & 
 react hook forms(w/ emailjs for backend). I didn't use Gatsby because I

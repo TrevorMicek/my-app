@@ -8,7 +8,7 @@ import Wrapper from '../../Styles/Wrapper';
 //Bottom Nav 
 const Container = styled(Wrapper)`
     position: absolute;
-    
+    background: white;
     right: 0;
     bottom: 3vh;
     display: inline-block;
