@@ -12,9 +12,7 @@ const Container = styled(Wrapper)`
     bottom: 3vh;
     width: 100%;
     display: inline-block;
-    @media(max-width: 768px) {
-        min-width: 50%;
-    }
+    
     @media(min-width: 916px) {
    
         font-size: 1.45em;
@@ -32,7 +30,7 @@ const SectionText = styled(Text)`
 
     text-decoration: underline;
     @media(max-width: 768px) {
-        margin-top: 1vh;
+        
         font-size: .65em;
     }
     
