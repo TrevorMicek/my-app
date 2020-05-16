@@ -23,10 +23,11 @@ const Container = styled(Wrapper)`
 `;
 const SectionText = styled(Text)`
     display: inline-block;
+    position: relative;
     font-size: .5em;
     line-height: 1.5em;
     z-index: 5;
-    right: 50%;
+    right: 50vw;
     margin-right: 1.5vw;
 
     text-decoration: underline;
