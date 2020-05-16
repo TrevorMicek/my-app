@@ -8,9 +8,9 @@ import Wrapper from '../../Styles/Wrapper';
 //Bottom Nav 
 const Container = styled(Wrapper)`
     position: absolute;
-    background: white;
-    right: 0;
+    text-align: center;
     bottom: 3vh;
+    width: 100%;
     display: inline-block;
     @media(max-width: 768px) {
         min-width: 50%;
@@ -27,7 +27,7 @@ const SectionText = styled(Text)`
     font-size: .5em;
     line-height: 1.5em;
     z-index: 5;
-    right: 50vw;
+    
     margin-right: 1.5vw;
 
     text-decoration: underline;
