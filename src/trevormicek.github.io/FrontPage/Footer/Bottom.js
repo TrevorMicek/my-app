@@ -10,7 +10,8 @@ const Container = styled(Wrapper)`
     position: absolute;
     text-align: center;
     bottom: 3vh;
-    width: 90%;
+    width: 92vw;
+    
     display: inline-block;
     @media(max-width: 768px) {
         min-width: 50%;
