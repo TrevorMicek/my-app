@@ -15,9 +15,12 @@ const Container = styled(Wrapper)`
     bottom: 0;
     box-shadow: none;
     z-index: 7;
+    @media(max-width: 768px) {
+        font-size: 1.25em;
+    }
     @media(min-width: 916px) {
         padding-top: 7.5vh;
-        font-size: 1.25em;
+        
 
         
     }
