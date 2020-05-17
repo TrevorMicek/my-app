@@ -10,9 +10,11 @@ const Container = styled(Wrapper)`
     position: absolute;
     text-align: center;
     bottom: 3vh;
-    width: 100%;
+    width: 90%;
     display: inline-block;
-    
+    @media(max-width: 768px) {
+        min-width: 50%;
+    }
     @media(min-width: 916px) {
    
         font-size: 1.45em;
@@ -25,7 +27,7 @@ const SectionText = styled(Text)`
     font-size: .5em;
     line-height: 1.5em;
     z-index: 5;
-    margin-left: 0;
+    
     margin-right: 1.5vw;
 
     text-decoration: underline;
