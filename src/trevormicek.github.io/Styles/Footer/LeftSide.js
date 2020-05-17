@@ -16,6 +16,9 @@ const LSStyles = styled.section`
         width: 1.25em;
         height: 1.25em;
     }
+    @media(max-width:768px) {
+        font-size: .85em;
+    }
     @media(min-width: 916px) {
         bottom: 7.5vh;
         margin-left: 12.5vw;
