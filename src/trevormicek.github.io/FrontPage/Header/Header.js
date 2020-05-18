@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Theme from './../../Theme';
 import SecondImg from '../../Images/SecondImg.jpg';
-import Resume from './Resume.pdf';
+import TrevorMicekResume from './TrevorMicekResume.pdf';
 import Overlay from './../../Styles/Overlay';
 import HeaderContainer from './../../Styles/HeaderContainer';
 import HeaderTitle from './HeaderTitle';
@@ -47,7 +47,7 @@ const HeaderWrap = styled(HeaderContainer)`
     
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .05);
+    background: rgba(00, 00, 00, .15);
 
     @media(max-width: 768px) {
         background: rgba(00, 00, 50, .15);
@@ -122,7 +122,7 @@ const Header = (props) => (
             Hello, I'm Trevor Micek and I am a Front End Developer, <br />
             looking for a position at a business in Colorado.
         </HeaderText>
-        <PDF href={Resume} download="Resume.pdf">Resume</PDF>
+        <PDF href={TrevorMicekResume} download="TrevorMicekResume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
         
         <Link to="/portfolio">

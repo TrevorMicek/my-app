@@ -12,20 +12,20 @@ const NavBarItemMobile = styled(NavBarItem)`
        
         min-width: 80%;
         margin: 0;
-        margin-top: 1.5vh;
+        margin-top: 1.75vh;
 
-        padding: 1.5vh 4vw;
-        top: 0vh;
-        left: 5vw;
+        padding: 1.75vh 4vw;
+        top: 3vh;
+        left: 6vw;
         font-size: .9em;
-        box-shadow: none;
+        
 
         :active {
         -webkit-box-shadow: inset 0px 0px 5px lightgrey;
         -moz-box-shadow: inset 0px 0px 5px lightgrey;
         box-shadow: inset 0px 0px 5px lightgrey;
         
-        top: .25vh;
+        top: 3.25vh;
         
     }
     }
@@ -39,7 +39,7 @@ const XStyles = styled.img`
     width: 5vw;
     position: fixed;
     z-index: 11;
-   
+    margin-bottom: 10vh;
    
     top: 3vh;
     right: 10vw;
@@ -75,14 +75,14 @@ const DropDownMenu = () => (
                 </NavLink>
 
                 <NavLink to="/portfolio">
-                    <NavBarItemMobile>Portfolio</NavBarItemMobile>
+                    <NavBarItemMobile>Projects</NavBarItemMobile>
                 </NavLink>
 
-                <NavLink to="about">
+                <NavLink to="/about">
                     <NavBarItemMobile>About</NavBarItemMobile>
                 </NavLink>
 
-                <NavLink to="contact">
+                <NavLink to="/contact">
                     <NavBarItemMobile>Contact</NavBarItemMobile>
                 </NavLink>
             

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Overlay from '../../Styles/Overlay.js';
 import MainSectionItem from '../../Styles/MainSectionItem';
-import FeatherImg from '../../Images/FeatherImg.jpg';
+import ScotishImg from '../../Images/ScotishImg.jpg';
 import SectionTitle from '../../Styles/SectionTitle';
 import Text from '../../Styles/SectionText';
 
@@ -31,7 +31,7 @@ margin-left: 0;
     }
 `;
 const Container = styled(MainSectionItem)`
-    background: url(${FeatherImg}) no-repeat top center;
+    background: url(${ScotishImg}) no-repeat top center;
     background-size: 100% 100%;
     height: 35vh;
 
