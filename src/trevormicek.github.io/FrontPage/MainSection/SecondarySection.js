@@ -4,16 +4,16 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Overlay from '../../Styles/Overlay.js';
 import MainSectionItem from '../../Styles/MainSectionItem';
-import ForestImg from '../../Images/ForestImg.jpg';
+import AutumnImg from '../../Images/AutumnImg.jpg';
 import Title from '../../Styles/SectionTitle';
 import Text from '../../Styles/SectionText';
 
 
 //Secondary Item
 const Container = styled(MainSectionItem)`
-    background: url(${ForestImg}) no-repeat top center;
+    background: url(${AutumnImg}) no-repeat top center;
     background-size: 100% 100%;
-    height: 38vh;
+    height: 40vh;
 
     @media(max-width: 768px) {
         font-size: 1.25em;
@@ -34,7 +34,7 @@ const Container = styled(MainSectionItem)`
     }
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .2);
+    background: rgba(00, 00, 00, .15);
     
     
 `;

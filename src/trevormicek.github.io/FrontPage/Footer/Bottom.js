@@ -50,7 +50,7 @@ const Bottom = () => (
 
         <NavLink to="/portfolio">
         <SectionText>
-            Portfolio
+            Projects
         </SectionText>
         </NavLink>
 
