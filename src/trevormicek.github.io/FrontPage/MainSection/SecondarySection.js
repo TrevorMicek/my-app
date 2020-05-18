@@ -13,7 +13,7 @@ import Text from '../../Styles/SectionText';
 const Container = styled(MainSectionItem)`
     background: url(${ForestImg}) no-repeat top center;
     background-size: 100% 100%;
-    height: 35vh;
+    height: 37.5vh;
 
     @media(max-width: 768px) {
         font-size: 1.25em;
@@ -34,7 +34,7 @@ const Container = styled(MainSectionItem)`
     }
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .05);
+    background: rgba(00, 00, 00, .2);
     
     
 `;
