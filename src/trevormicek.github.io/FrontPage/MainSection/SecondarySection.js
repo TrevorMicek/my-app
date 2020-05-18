@@ -13,7 +13,7 @@ import Text from '../../Styles/SectionText';
 const Container = styled(MainSectionItem)`
     background: url(${ForestImg}) no-repeat top center;
     background-size: 100% 100%;
-    height: 37.5vh;
+    height: 38vh;
 
     @media(max-width: 768px) {
         font-size: 1.25em;
