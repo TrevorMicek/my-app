@@ -8,20 +8,16 @@ import TertiarySection from './TertiarySection';
 
 //Main Section Container
 const MainSectionWrap = styled(MainSectionContainer)`
-    padding-bottom: 10vh;
     background: #014421;
+    padding-bottom: 10vh;
 
-     @media(max-width: 768px) {
+    @media(max-width: 768px) {
     background: #145541;
-    
     } 
 
     @media(min-width: 1060px) {
-        flex-direction: row;
-        
+        flex-direction: row;   
     }
-    
-    
 `;
 const MainSection = () => (
     <MainSectionWrap>

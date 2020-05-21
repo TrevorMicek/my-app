@@ -5,8 +5,8 @@ import styled from 'styled-components';
 export default styled.h1`
     font-size: 1.5em;
     font-family: helvetica;
-    padding-bottom: 2vh;
     margin-top: 8vh;
+    padding-bottom: 2vh;
     z-index: 5;
 
     @media(min-width: 916px) {

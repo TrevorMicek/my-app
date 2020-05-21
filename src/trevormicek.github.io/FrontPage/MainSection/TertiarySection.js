@@ -1,33 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
-import Overlay from '../../Styles/Overlay.js';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import MainSectionItem from '../../Styles/MainSectionItem';
+import Overlay from '../../Styles/Overlay.js';
 import ScotishImg from '../../Images/ScotishImg.jpg';
+import SecondPage from '../../SecondPage/SecondPage';
 import SectionTitle from '../../Styles/SectionTitle';
 import Text from '../../Styles/SectionText';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
-import SecondPage from '../../SecondPage/SecondPage';
-
-
-//Tertiary Item
-
+//Third Main Section Item(Projects)
 const SectionText = styled(Text)`
-    margin-top: 2vh;
-    margin-left: 2vw;
     line-height: 1.5em;
-
+    margin-left: 2vw;
+    margin-top: 2vh;
+    
     @media(max-width: 768px) {
         font-size: 1.25em;
     }
     @media(min-width: 1060px) {
-margin-left: 0;
-        
+        margin-left: 0;
         text-align: left;
-        
-        
-        
     }
 `;
 const Container = styled(MainSectionItem)`
@@ -36,18 +29,15 @@ const Container = styled(MainSectionItem)`
     height: 35vh;
 
     @media(min-width: 916px) {
-        width: 60%;
-        height: 40vh;
         font-size: 1.25em;
-        
+        height: 40vh;
+        width: 60%;
     }
-
     @media(min-width: 1060px) {
         font-size: 1.1em;
-        width: 30%;
         margin-left: 1vw;
         margin-right: 1vw;
-        
+        width: 30%;
     }
 `;
 const Title = styled(SectionTitle)`
@@ -56,17 +46,13 @@ const Title = styled(SectionTitle)`
 
     @media(max-width: 768px) {
         font-size: 1.85em;
-    }
-    
-
-    
+    } 
 `;
 const OverlayStyle = styled(Overlay)`
     background: rgba(00, 00, 00, .15);
     @media(max-width: 768px) {
         background: rgba(00, 00, 00, .2);
     }
-    
 `;
 const Links = styled.a`
     color: #f5fffA;
@@ -76,17 +62,9 @@ const Links = styled.a`
 const TertiarySection = (props) => (    
     <Container>            
         <OverlayStyle />
-         
-         
-                
-                
-                        <Link to="/portfolio">
-                        <Title>Projects</Title>
-                        </Link>
-			
-	        
-	        
-        
+        <Link to="/portfolio">
+            <Title>Projects</Title>
+        </Link>
         <SectionText>
             <Links href="eagle-plumes.com">Eagle Plume's</Links><br />
             <Links href="twinowldigital.com">Old Freelance Site</Links><br />

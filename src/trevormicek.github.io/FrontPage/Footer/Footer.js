@@ -5,24 +5,20 @@ import LeftSide from '../../Styles/Footer/LeftSide';
 import RightSide from '../../Styles/Footer/RightSide';
 import Bottom from '../Footer/Bottom'
 
-
 //Footer Component
 const Container = styled(Wrapper)`
-    flex-direction: row;
     align-items: flex-end;
     background: #606060;
-    padding-top: 5vh;
     bottom: 0;
     box-shadow: none;
+    flex-direction: row;
+    padding-top: 5vh;
     z-index: 7;
     @media(max-width: 768px) {
         font-size: 1.25em;
     }
     @media(min-width: 916px) {
-        padding-top: 7.5vh;
-        
-
-        
+        padding-top: 7.5vh;  
     }
 `;
 

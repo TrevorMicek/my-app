@@ -1,23 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import GlobalStyles from './trevormicek.github.io/Styles/Global';
-
 import Theme from './trevormicek.github.io/Theme';
 import NavBar from './trevormicek.github.io/Styles/NavBar/NavBar';
-
-
-
-
 
 //Main App 
 const Site = () => (
 	<Theme>
 		<GlobalStyles />
 		<NavBar />
-	</Theme>	
-	
+	</Theme>
 )
+
 ReactDOM.render(
 	<Site />, 
 	document.getElementById('root')

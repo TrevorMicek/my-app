@@ -23,32 +23,19 @@ export default styled.button`
         -webkit-box-shadow: inset 0px 0px 5px #006060;
         -moz-box-shadow: inset 0px 0px 5px #006060;
         box-shadow: inset 0px 0px 5px #006060;
-        
     }
      @media(max-width: 768px) {
-        
         background-color: #328CA5;
-       
-        
     }
     @media(min-width: 768px) {
-        
-       
         font-size: 1.1em;
     }
-
     @media(min-width: 916px) {
-        padding: 1.5vh 1vw;
         font-size: 1em;
         margin-bottom: 3vh;
-        
+        padding: 1.5vh 1vw;
     }
-
     @media(min-width: 1060px) {
-        
-       
         margin-bottom: 0vh;
     }
-
 `;
-

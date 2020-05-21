@@ -2,74 +2,65 @@ import React from 'react';
 import styled from 'styled-components';
 import Overlay from '../../Styles/Overlay';
 import MainSectionItem from '../../Styles/MainSectionItem';
-
 import ChurchImg from '../../Images/ChurchImg.jpeg';
 import Title from '../../Styles/SectionTitle';
 import Text from '../../Styles/SectionText';
 
-
-//Primary Item
+//First Main Section Item(language & skills)
 const Container = styled(MainSectionItem)`
     background: url(${ChurchImg}) no-repeat top center;
     background-size: 100% 100%;
     height: 35vh;
 
-    
     @media(max-width: 768px) {
         font-size: 1.15em;
     }
     @media(min-width: 916px) {
-        width: 60%;
-        height: 40vh;
         font-size: 1.25em;
-        
+        height: 40vh;
+        width: 60%;
     }
-
     @media(min-width: 1060px) {
-        width: 30%;
-        
         margin-left: 1vw;
-        
+        width: 30%;  
     }
 `;
 const OverlayStyle = styled(Overlay)`
     background: rgba(00, 00, 00, .15);
+
     @media(max-width: 768px) {
         background: rgba(00, 00, 00, .20);
     }
-    
 `;
 const SectionTitle = styled(Title)`
     word-spacing: 5vw;
 
     @media(min-width: 1060px) {
-        top: 3vh;
         margin-bottom: 2vh;
-        
+        top: 3vh;
     }
 `;
 const FirstList = styled.ul`
+    list-style-position: outside;
+    line-height: 3.75vh;
     position: absolute;
     right: 30vw;
     top: 0;
-    list-style-position: outside;
-    line-height: 3.75vh;
+
     @media(min-width: 1060px) {
         font-size: .85em;
         right: 15vw;
-        
     }
 `;
 const SecondList = styled.ul`
-    position: absolute;
     left: 36vw;
-    top: 0;
     list-style-position: outside;
+    position: absolute;
+    top: 0;
 
     @media(min-width: 1060px) {
         font-size: .85em;
         left: 15vw;
-        
     }
 `;
 const PrimarySection = () => (

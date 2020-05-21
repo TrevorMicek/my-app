@@ -5,103 +5,111 @@ import SecondPane from './Carousel/SecondPane';
 import FirstPane from './Carousel/FirstPane';
 import ThirdPane from './Carousel/ThirdPane';
 import FourthPane from './Carousel/FourthPane';
-
 import MainSectionItem from '../../Styles/MainSectionItem';
-import CarouselOne from './CarouselOne';
-
 import SectionTitle from '../../Styles/SectionTitle';
 
+
+//MainSection Title(Freelance||Side Projects)
 const Container = styled(MainSectionItem)`
-    height: 0;
-    min-width: 75%;
-    padding-bottom: 5vh;
     box-shadow: none;
-    padding-left: 0;
     cursor: default;
+    height: 0;
     margin: inherit auto;
+    min-width: 75%;
+    padding-bottom: 9vh;
+    padding-left: 0;
 
     @media(min-width: 916px) {
-        
         font-size: 1.35em;
-
-        
     }
-
 `;
 
 const TitleOne = styled(SectionTitle)`
+    background-color: #dedede;
+    border: 1px solid;
+    color: #000;
     font-family: "Times New Roman";
     font-size: 1.2em;
-    color: #000;
-    background-color: #dedede;
-    padding: 2.6vh 1vw;
-    text-shadow: none;
-    position: absolute;
+    left: .5vw;
     margin: auto 0;
     min-width: 46.5%;
-        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
-        -moz-box-shadow: inset 0px 0px 5px lightgrey;
-        box-shadow: inset 0px 0px 5px lightgrey;
-        top: 0vh;
-        left: 0vw;
-        border: 1px solid;
-    
+    padding: 2.6vh 1vw;
+    position: absolute;
+    text-shadow: none;
+    top: 0vh;
+    box-shadow: inset 0px 0px 5px lightgrey;
+    -moz-box-shadow: inset 0px 0px 5px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 5px lightgrey; 
 
-
-    
+    @media(min-width: 915px) {
+        left: 1.5vw;
+    }
 `;
 const TitleTwo = styled(SectionTitle)`
-font-family: "Times New Roman";
-    font-size: 1.2em;
-    color: #000;
     background-color: #fff;
-    padding: 2.6vh 2vw;
-    text-shadow: none;
-    position: absolute;
+    border: 1px solid;
+    color: #000;
+    cursor: pointer;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    right: .5vw;
     margin: auto 0;
     min-width: 45%;
-    cursor: pointer;
-        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
-        -moz-box-shadow: inset 0px 0px 5px lightgrey;
-        box-shadow: inset 0px 0px 5px lightgrey;
-        top: 0vh;
-        right: 0vw;
-        border: 1px solid;
+    padding: 2.6vh 2vw;
+    position: absolute;
+    text-shadow: none;
+    top: 0vh;
+    box-shadow: inset 0px 0px 5px lightgrey;
+    -moz-box-shadow: inset 0px 0px 5px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 5px lightgrey; 
+
+    @media(min-width: 915px) {
+        right: 1.5vw;
+    }
 `;
 const TitleThree = styled(SectionTitle)`
-font-family: "Times New Roman";
-    font-size: 1.2em;
-    color: #000;
     background-color: #dedede;
-    padding: 2.6vh 2vw;
-    text-shadow: none;
-    position: absolute;
+    border: 1px solid;
+    color: #000;
+    cursor: pointer;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    right: 0vw;
     margin: auto 0;
     min-width: 45%;
-        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
-        -moz-box-shadow: inset 0px 0px 5px lightgrey;
-        box-shadow: inset 0px 0px 5px lightgrey;
-        top: 0vh;
-        right: 0vw;
-        border: 1px solid;
+    padding: 2.6vh 2vw;
+    position: absolute;
+    text-shadow: none;
+    top: 0vh;
+    box-shadow: inset 0px 0px 5px lightgrey;
+    -moz-box-shadow: inset 0px 0px 5px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 5px lightgrey; 
+
+    @media(min-width: 915px) {
+        right: 1.5vw;
+    }
 `;
 const TitleFour = styled(SectionTitle)`
-font-family: "Times New Roman";
-    font-size: 1.2em;
-    color: #000;
     background-color: #fff;
-    padding: 2.6vh 1vw;
-    text-shadow: none;
-    position: absolute;
+    border: 1px solid;
+    color: #000;
+    cursor: pointer;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    left: 0vw;
     margin: auto 0;
     min-width: 46.5%;
-    cursor: pointer;
-        -webkit-box-shadow: inset 0px 0px 5px lightgrey;
-        -moz-box-shadow: inset 0px 0px 5px lightgrey;
-        box-shadow: inset 0px 0px 5px lightgrey;
-        top: 0vh;
-        left: 0vw;
-        border: 1px solid;
+    padding: 2.6vh 1vw;
+    position: absolute;
+    text-shadow: none;
+    top: 0vh;
+    box-shadow: inset 0px 0px 5px lightgrey;
+    -moz-box-shadow: inset 0px 0px 5px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 5px lightgrey; 
+
+    @media(min-width: 915px) {
+        left: 1.5vw;
+    }
 `;
 
 const Toggle = () => {
@@ -126,7 +134,6 @@ const Toggle = () => {
             </>
             : null}
 
-
         {isToggled !== false ? 
             <>
                 <Container> 
@@ -140,12 +147,7 @@ const Toggle = () => {
                 <FourthPane />
             </> 
         : null}
-
     </>
     );
 };
-
-
-
-
 export default Toggle;

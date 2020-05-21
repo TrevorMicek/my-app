@@ -21,8 +21,6 @@ export default styled.button`
         -webkit-box-shadow: inset 0px 0px 5px lightgrey;
         -moz-box-shadow: inset 0px 0px 5px lightgrey;
         box-shadow: inset 0px 0px 5px lightgrey;
-        
-
         top: .25vh;
     }
 
@@ -34,6 +32,4 @@ export default styled.button`
         padding: 1.5vh 1.5vw;
         font-size: 1em;
     }
-    
-
 `;
