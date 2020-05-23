@@ -4,7 +4,7 @@ import Header from './Header/Header';
 import MainSection from './MainSection/MainSection';
 import Footer from './Footer/Footer';
 
-//Portfolio Page
+//Projects Page
 const SecondPage = () => (
 	<>
 		<Header />

@@ -5,7 +5,6 @@ import MainSectionContainer from '../../Styles/MainSectionContainer';
 import Sunset from '../../Images/Sunset.jpg';
 import Toggle from './Carousell';
 
-
 //Main Section Items Wrapper
 const MainSectionWrap = styled(MainSectionContainer)`
     background: url(${Sunset}) no-repeat top center;

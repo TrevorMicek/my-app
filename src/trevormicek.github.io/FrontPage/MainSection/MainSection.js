@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import MainSectionContainer from '../../Styles/MainSectionContainer';
 import PrimarySection from './PrimarySection';
 import SecondarySection from './SecondarySection';
 import TertiarySection from './TertiarySection';
-
 
 //Main Section Container
 const MainSectionWrap = styled(MainSectionContainer)`

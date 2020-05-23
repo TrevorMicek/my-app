@@ -1,13 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Text from './../../../../Styles/SectionText';
 
+//Carousel(Projects Page) Section Text Styles
 const SectionText = styled(Text)`
-    margin: 0 3vw;
     border-top: 2px solid #000;
-    padding-top: 2vh;
     color: #000;
-    text-shadow: none;
     font-size: .85em;
+    margin: 0 3vw;
+    padding-top: 2vh;
+    text-shadow: none;
 `;
 export default SectionText;

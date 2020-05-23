@@ -1,18 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Container from './CarouselStyles/Container';
-import Background from './CarouselStyles/Background';
 import A from './CarouselStyles/Link';
-import SectionTitle from './CarouselStyles/SectionTitle';
+import Background from './CarouselStyles/Background';
+import Container from './CarouselStyles/Container';
 import SectionText from './CarouselStyles/SectionText';
+import SectionTitle from './CarouselStyles/SectionTitle';
 import LibraryImg from '../../../Images/LibraryImg.jpeg';
 
+//Background For Archive Project
 const BG = styled(Background)`
     background: url(${LibraryImg}) no-repeat top center;
     background-size: 100% 95%;
 `;
-
+//Online Library Section
 const SecondarySection = () => (
     <Container>
         <SectionTitle>

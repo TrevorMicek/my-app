@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import Wrapper from '../../Styles/Wrapper';
+
+import Bottom from '../Footer/Bottom';
 import LeftSide from '../../Styles/Footer/LeftSide';
 import RightSide from '../../Styles/Footer/RightSide';
-import Bottom from '../Footer/Bottom'
+import Wrapper from '../../Styles/Wrapper';
 
 //Footer Component
 const Container = styled(Wrapper)`

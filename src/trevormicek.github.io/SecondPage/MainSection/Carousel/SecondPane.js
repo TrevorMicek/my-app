@@ -1,19 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from './CarouselStyles/Container';
-import Background from './CarouselStyles/Background';
+
 import A from './CarouselStyles/Link';
-import SectionTitle from './CarouselStyles/SectionTitle';
-import SectionText from './CarouselStyles/SectionText';
+import Background from './CarouselStyles/Background';
+import Container from './CarouselStyles/Container';
 import OldFreelanceImg from '../../../Images/OldFreelanceImg.jpg';
+import SectionText from './CarouselStyles/SectionText';
+import SectionTitle from './CarouselStyles/SectionTitle';
 
-
+//Background For Twin Owl
 const BG = styled(Background)`
     background: url(${OldFreelanceImg}) no-repeat top center;
     background-size: 100% 100%;
     border: 1px solid #000;
 `;
-
+//Twin Owl Section
 const SecondarySection = () => (
     <Container>
         <SectionTitle>

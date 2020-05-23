@@ -112,6 +112,7 @@ const TitleFour = styled(SectionTitle)`
     }
 `;
 
+//Toggle State Component Between Both Sets of Titles
 const Toggle = () => {
     const [isToggled, setToggled] = useState(false);
     

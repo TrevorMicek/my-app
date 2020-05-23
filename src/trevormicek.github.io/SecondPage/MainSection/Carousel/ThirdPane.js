@@ -1,18 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Container from './CarouselStyles/Container';
-import Background from './CarouselStyles/Background';
 import A from './CarouselStyles/Link';
-import SectionTitle from './CarouselStyles/SectionTitle';
+import Background from './CarouselStyles/Background';
+import Container from './CarouselStyles/Container';
 import SectionText from './CarouselStyles/SectionText';
+import SectionTitle from './CarouselStyles/SectionTitle';
 import PixelArtImg from '../../../Images/PixelArtImg.jpeg';
 
+//Background For Game Dev Section
 const BG = styled(Background)`
     background: url(${PixelArtImg}) no-repeat top center;
     background-size: 100% 95%;
 `;
-
+//Game Dev Section
 const SecondarySection = () => (
     <Container>
         <SectionTitle>

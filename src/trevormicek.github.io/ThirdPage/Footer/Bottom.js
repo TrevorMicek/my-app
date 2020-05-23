@@ -8,74 +8,54 @@ import Wrapper from '../../Styles/Wrapper';
 
 //Bottom Nav 
 const Container = styled(Wrapper)`
+    bottom: 3vh;
+    display: inline-block;
+    left: 0;
     position: absolute;
     text-align: center;
-    bottom: 3vh;
     width: 92vw;
     
-    display: inline-block;
     @media(max-width: 768px) {
         min-width: 50%;
     }
     @media(min-width: 916px) {
-   
         font-size: 1.45em;
-        
     }
 `;
 const SectionText = styled(Text)`
     display: inline-block;
-    position: relative;
     font-size: .5em;
     line-height: 1.5em;
-    z-index: 5;
-    
     margin-right: 1.5vw;
-
+    position: relative;
     text-decoration: underline;
+    z-index: 5;
     @media(max-width: 768px) {
-        
         font-size: .65em;
     }
-    
 `;
 const Bottom = () => (
-    
     <Container>
-       
         <NavLink to="/">
-        <SectionText>
-            Home
-        </SectionText>
+            <SectionText>
+                Home
+            </SectionText>
         </NavLink>
-
         <NavLink to="/portfolio">
-        <SectionText>
-            Projects
-        </SectionText>
+            <SectionText>
+                Projects
+            </SectionText>
         </NavLink>
-
         <NavLink to="/about">
-        <SectionText>
-            About
-        </SectionText>
+            <SectionText>
+                About
+            </SectionText>
         </NavLink>
-
         <NavLink to="/contact">
-        <SectionText>
-            Contact
-        </SectionText>
+            <SectionText>
+                Contact
+            </SectionText>
         </NavLink>
-        
-        
-        
-        
-
-        
-
      </Container>
-     
-    
-
 )
 export default Bottom;

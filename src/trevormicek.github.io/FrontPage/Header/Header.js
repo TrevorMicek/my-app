@@ -12,7 +12,7 @@ import SecondImg from '../../Images/SecondImg.jpg';
 import Theme from './../../Theme';
 import TrevorMicekResume from './TrevorMicekResume.pdf';
 
-//Header Component
+//Home Page Header Component
 const HeaderWrap = styled(HeaderContainer)`
     background: url(${SecondImg}) no-repeat top center;
     background-size: 100% 100%;
