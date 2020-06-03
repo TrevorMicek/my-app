@@ -7,12 +7,10 @@ import NavBarContainer from './NavBarContainer';
 import NavBarItem from './NavBarItem';
 import ScrollToTop from './ScrollToTop';
 import MobileNav from './MobileNav';
-import Hamburger from '../../Styles/NavBar/MobileNav';
 import FirstPage from '../../FrontPage/FirstPage';
 import SecondPage from '../../SecondPage/SecondPage';
 import ThirdPage from '../../ThirdPage/ThirdPage';
 import FourthPage from '../../FourthPage/FourthPage';
-
 
 const NavBarStyles = styled.section`
         display: inline-block;
@@ -49,10 +47,7 @@ const NavBar = () => (
         	<Route path="/about" component={ThirdPage} />
         	<Route path="/contact" component={FourthPage} />
                 
-                
         </HashRouter>
         </NavBarStyles>
-    
-    
 )
 export default NavBar;

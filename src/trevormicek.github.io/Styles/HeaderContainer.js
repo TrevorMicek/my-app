@@ -1,25 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Wrapper from './Wrapper';
 
 //Header Section Styles
 export default styled(Wrapper)`
-    padding-bottom: 12.5vh;
-    margin-bottom: 5vh;
     background: none;
     background-size: 100% 100%;
     box-shadow: #000 0px 0px 10px; 
     color: #fff;
     letter-spacing: 1px;
-    text-shadow: #000 0px 0px 10px;
-    text-align: center;
-    top: 6vh;
-    right: 0;
-    z-index: 5;
+    margin-bottom: 5vh;
     max-width: 100%;
-    
+    padding-bottom: 12.5vh;
+    right: 0;
+    text-align: center;
+    text-shadow: #000 0px 0px 10px;
+    top: 6vh;
+    z-index: 5;
+
     @media(min-width: 916px) {
-        padding-bottom: 40vh;
         font-size: 1.45em;
+        padding-bottom: 40vh;
     }
 `;

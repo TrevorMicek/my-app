@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+//Scroll To Top on Route Change
 export default function ScrollToTop() {
     const { pathname } = useLocation();
 
@@ -11,4 +12,3 @@ export default function ScrollToTop() {
     
     return null;
 }
-

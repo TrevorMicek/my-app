@@ -4,16 +4,15 @@ import Wrapper from '../Wrapper';
 
 //NavBar Styles
 export default styled(Wrapper)`
-    width: 100%;
-    min-height: 35px;
+    background: #fff;
+    box-shadow: #000 0px 0px 3px;
     flex-direction: row;
     justify-content: flex-end;
+    min-height: 35px;
     padding: 3vh 0vw;
     position: fixed;
-    z-index: 10;
-    background: #fff;
-    top: 0;
     right: 0;
-    box-shadow: #000 0px 0px 3px;
-    
+    top: 0;
+    width: 100%;
+    z-index: 10;
 `;

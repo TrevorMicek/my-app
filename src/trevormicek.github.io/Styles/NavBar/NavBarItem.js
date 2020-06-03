@@ -3,33 +3,33 @@ import styled from 'styled-components';
 
 //Navigation Bar Items
 export default styled.button`
-    text-decoration: none;
-    z-index: 3;
+
+    background: #fff;
     border: 1px solid;
+    box-shadow: lightgrey 2px 4px 7px;
+    color: #000;
+    cursor: pointer;
     margin: 0 .75vw;
+    min-height: 30px;
+    outline: none;
     padding: 1vh 1.5vw;
     position: relative;
     right: 14vw;
-    color: #000;
-    background: #fff;
-    box-shadow: lightgrey 2px 4px 7px;
-    cursor: pointer;
-    min-height: 30px;
-    outline: none;
-    
+    text-decoration: none;
+    z-index: 3;
+
     :active {
         -webkit-box-shadow: inset 0px 0px 5px lightgrey;
         -moz-box-shadow: inset 0px 0px 5px lightgrey;
         box-shadow: inset 0px 0px 5px lightgrey;
         top: .25vh;
     }
-
     @media(max-width: 915px) {
         display: none;
     }
     @media(min-width: 916px) {
         display: inline-block;
-        padding: 1.5vh 1.5vw;
         font-size: 1em;
+        padding: 1.5vh 1.5vw;
     }
 `;

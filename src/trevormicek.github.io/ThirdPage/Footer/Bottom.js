@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 import Text from '../../Styles/SectionText';
 import Wrapper from '../../Styles/Wrapper';
 
-
 //Bottom Nav 
 const Container = styled(Wrapper)`
     bottom: 3vh;
