@@ -67,6 +67,11 @@ function ContactForm() {
     console.log(data);
     emailjs.sendForm('gmail', 'contactform', e.target, 'user_tN4XKDZZkrN2RZ1CGvRyw')
   }
+  useEffect(async () => {
+    const result = await fetch('./api/formValues.json');
+    reset(result);
+  }, [reset])
+
   return (
     <FormObject onSubmit={handleSubmit(onSubmit)}>
       <Label><b>Name:</b></Label><br />
@@ -75,12 +80,20 @@ function ContactForm() {
 
       <Label><b>Email:</b></Label><br />
       <EmailInput name="email" ref={register({ required: true })} /><br />
-      {errors.email && <Err>*This field is required</Err>}<br />
+      {errors.email && <Err name="err">*This field is required</Err>}<br />
 
       <Label><b>Message:</b></Label><br />
       <TextArea type="textarea" rows="4" name="message" ref={register({ required: true })} /><br />
       {errors.message && <Err>*This field is required</Err>}<br />
-      <SubmitInput type="submit" />
+      <SubmitInput type="submit" onClick={() => {
+        reset({
+          message : "Thank you for your interest! I will email you back shortly",
+          name : "Submitted",
+          email : "Successfully"
+        });
+      }}
+      
+      />
     </FormObject>
   );
 }
