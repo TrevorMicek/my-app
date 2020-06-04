@@ -82,7 +82,7 @@ function ContactForm() {
       <Label><b>Message:</b></Label><br />
       <TextArea type="textarea" rows="4" name="message" ref={register({ required: true })} /><br />
       {errors.message && <Err>*This field is required</Err>}<br />
-      <SubmitInput type="submit" onClick={() => {
+      <SubmitInput type="button" onClick={() => {
         reset({
           message : "Thank you for your interest! I will email you back shortly",
           name : "Submitted",
