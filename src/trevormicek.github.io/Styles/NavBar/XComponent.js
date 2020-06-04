@@ -53,7 +53,7 @@ const DropDownMenu = () => (
         <NavLink to="/">
             <NavBarItemMobile>Home</NavBarItemMobile>
         </NavLink>
-        <NavLink to="/portfolio">
+        <NavLink to="/projects">
             <NavBarItemMobile>Projects</NavBarItemMobile>
         </NavLink>
         <NavLink to="/about">

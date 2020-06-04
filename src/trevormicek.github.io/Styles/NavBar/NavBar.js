@@ -31,7 +31,7 @@ const NavBar = () => (
                         }}>
                                 <NavBarItem>Home</NavBarItem>
                         </Link>
-                        <Link to="/portfolio">
+                        <Link to="/projects">
                                 <NavBarItem>Projects</NavBarItem>
                         </Link>
 			<Link to="/about">
@@ -43,7 +43,7 @@ const NavBar = () => (
 	        </NavBarContainer>
 	        
 		<Route exact path="/" component={FirstPage} />
-		<Route path="/portfolio" component={SecondPage} />
+		<Route path="/projects" component={SecondPage} />
         	<Route path="/about" component={ThirdPage} />
         	<Route path="/contact" component={FourthPage} />
                 

@@ -67,10 +67,7 @@ function ContactForm() {
     console.log(data);
     emailjs.sendForm('gmail', 'contactform', e.target, 'user_tN4XKDZZkrN2RZ1CGvRyw')
   }
-  useEffect(async () => {
-    const result = await fetch('./api/formValues.json');
-    reset(result);
-  }, [reset])
+  
 
   return (
     <FormObject onSubmit={handleSubmit(onSubmit)}>
